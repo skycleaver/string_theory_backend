@@ -10,16 +10,16 @@ class ChordSeventh
      */
     private $chordSeventh;
 
-    public function __construct(string $chordType)
+    public function __construct(string $chordSeventh)
     {
         $chordSeventhValues = new ChordSeventhValues();
-        if (!$chordSeventhValues->contains($chordType)) {
-            throw new \Exception('Unrecognized chord type: ' . $chordType);
+        if (!$chordSeventhValues->contains($chordSeventh)) {
+            throw new \Exception('Unrecognized chord type: ' . $chordSeventh);
         }
-        $this->chordType = $chordType;
+        $this->chordSeventh = $chordSeventh;
     }
 
-    public function value()
+    public function value(): string
     {
         return $this->chordSeventh;
     }

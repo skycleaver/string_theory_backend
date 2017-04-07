@@ -44,16 +44,23 @@ class Chord
         return $this->chordNotes->thirdNote();
     }
 
-    public function fourthNote(): Note
+    public function fourthNote()
     {
         return $this->chordNotes->fourthNote();
     }
 
     public function hasNote(Note $note): bool
     {
-        return $note->value() === $this->rootNote()->value()
+        $itHasIt = $note->value() === $this->rootNote()->value()
             || $note->value() === $this->secondNote()->value()
             || $note->value() === $this->thirdNote()->value();
+        if (!is_null($this->fourthNote())) {
+            if ($note->value() === $this->fourthNote()->value()) {
+                $itHasIt = true;
+            }
+        }
+
+        return $itHasIt;
     }
 
     public function chordType(): string

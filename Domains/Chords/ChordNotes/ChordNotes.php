@@ -104,7 +104,7 @@ class ChordNotes
         return $this->thirdNote;
     }
 
-    public function fourthNote(): Note
+    public function fourthNote()
     {
         return $this->fourthNote;
     }
