@@ -14,10 +14,14 @@
 $app->get('/', function () use ($app) {
     return $app->version();
 });
-
+// CHORD CONTROLLER
 $app->get('chord', [
     'as' => 'chord', 'uses' => 'ChordController@getChord'
 ]);
 $app->get('chord_guitar', [
     'as' => 'chord_guitar', 'uses' => 'ChordController@getChordGuitar'
+]);
+// SCALE CONTROLLER
+$app->get('scale', [
+    'as' => 'scale', 'uses' => 'ScaleController@getScale'
 ]);

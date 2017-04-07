@@ -13,47 +13,47 @@ class GetInterval
         $this->noteValues = $noteValues;
     }
 
-    public function getMajorThird(Note $chordRoot)
+    public function getMajorThird(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 4);
     }
 
-    public function getMinorThird(Note $chordRoot)
+    public function getMinorThird(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 3);
     }
 
-    public function getFifth(Note $chordRoot)
+    public function getFifth(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 7);
     }
 
-    public function getMajorSeventh(Note $chordRoot)
+    public function getMajorSeventh(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 11);
     }
 
-    public function getMinorSeventh(Note $chordRoot)
+    public function getMinorSeventh(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 10);
     }
 
-    public function getSecond(Note $chordRoot)
+    public function getSecond(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 2);
     }
 
-    public function getFourth(Note $chordRoot)
+    public function getFourth(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 5);
     }
 
-    public function getMajorSixth(Note $chordRoot)
+    public function getMajorSixth(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 9);
     }
 
-    public function getMinorSixth(Note $chordRoot)
+    public function getMinorSixth(Note $chordRoot): Note
     {
         return $this->getNoteBySemiToneDifference($chordRoot, 8);
     }
