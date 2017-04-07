@@ -2,62 +2,70 @@
 
 namespace Chords;
 
+use Chords\ChordNotes\ChordNotes;
+use Chords\ChordSevenths\ChordSeventh;
+use Chords\ChordTypes\ChordType;
 use Notes\Note;
 
 class Chord
 {
     /**
-     * @var Note
+     * @var ChordType
      */
-    private $rootNote;
+    private $chordType;
     /**
-     * @var Note
+     * @var ChordSeventh
      */
-    private $secondNote;
-    /**
-     * @var Note
-     */
-    private $thirdNote;
+    private $chordSeventh;
 
     public function __construct(
         Note $rootNote,
-        Note $secondNote,
-        Note $thirdNote
+        ChordType $chordType,
+        ChordSeventh $chordSeventh = null
     )
     {
-        $this->rootNote = $rootNote;
-        $this->secondNote = $secondNote;
-        $this->thirdNote = $thirdNote;
+        $this->chordType = $chordType;
+        $this->chordSeventh = $chordSeventh;
+        $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
     }
 
-    /**
-     * @return Note
-     */
     public function rootNote(): Note
     {
-        return $this->rootNote;
+        return $this->chordNotes->rootNote();
     }
 
-    /**
-     * @return Note
-     */
     public function secondNote(): Note
     {
-        return $this->secondNote;
+        return $this->chordNotes->secondNote();
     }
 
-    /**
-     * @return Note
-     */
     public function thirdNote(): Note
     {
-        return $this->thirdNote;
+        return $this->chordNotes->thirdNote();
+    }
+
+    public function fourthNote(): Note
+    {
+        return $this->chordNotes->fourthNote();
     }
 
     public function hasNote(Note $note): bool
     {
-        return $note->value() === $this->rootNote->value()
-            || $note->value() === $this->secondNote->value()
-            || $note->value() === $this->thirdNote->value();
+        return $note->value() === $this->rootNote()->value()
+            || $note->value() === $this->secondNote()->value()
+            || $note->value() === $this->thirdNote()->value();
+    }
+
+    public function chordType(): string
+    {
+        return $this->chordType->value();
+    }
+
+    public function chordSeventh(): string
+    {
+        if (is_null($this->chordSeventh)) {
+            return '';
+        }
+        return $this->chordSeventh->value();
     }
 }

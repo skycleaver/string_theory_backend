@@ -39,7 +39,7 @@ class ScaleNotes
      */
     private $seventhNote;
 
-    public function __construct(ScaleType $scaleType, Note $rootNote)
+    public function __construct(Note $rootNote, ScaleType $scaleType)
     {
         $getInterval = new GetInterval(new NoteValues());
         switch ($scaleType->value()) {

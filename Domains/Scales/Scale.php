@@ -24,7 +24,7 @@ class Scale
     )
     {
         $this->scaleType = $scaleType;
-        $this->scaleNotes = new ScaleNotes($scaleType, $rootNote);
+        $this->scaleNotes = new ScaleNotes($rootNote, $scaleType);
     }
 
     /**
