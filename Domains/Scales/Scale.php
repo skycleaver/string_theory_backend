@@ -3,55 +3,28 @@
 namespace Scales;
 
 use Notes\Note;
+use Scales\ScaleNotes\ScaleNotes;
+use Scales\ScaleTypes\ScaleType;
 
 class Scale
 {
+
     /**
-     * @var Note
+     * @var ScaleType
      */
-    private $rootNote;
+    private $scaleType;
     /**
-     * @var Note
+     * @var ScaleNotes
      */
-    private $secondNote;
-    /**
-     * @var Note
-     */
-    private $thirdNote;
-    /**
-     * @var Note
-     */
-    private $fourthNote;
-    /**
-     * @var Note
-     */
-    private $fifthNote;
-    /**
-     * @var Note
-     */
-    private $sixthNote;
-    /**
-     * @var Note
-     */
-    private $seventhNote;
+    private $scaleNotes;
 
     public function __construct(
         Note $rootNote,
-        Note $secondNote,
-        Note $thirdNote,
-        Note $fourthNote,
-        Note $fifthNote,
-        Note $sixthNote,
-        Note $seventhNote
+        ScaleType $scaleType
     )
     {
-        $this->rootNote = $rootNote;
-        $this->secondNote = $secondNote;
-        $this->thirdNote = $thirdNote;
-        $this->fourthNote = $fourthNote;
-        $this->fifthNote = $fifthNote;
-        $this->sixthNote = $sixthNote;
-        $this->seventhNote = $seventhNote;
+        $this->scaleType = $scaleType;
+        $this->scaleNotes = new ScaleNotes($scaleType, $rootNote);
     }
 
     /**
@@ -59,7 +32,7 @@ class Scale
      */
     public function rootNote(): Note
     {
-        return $this->rootNote;
+        return $this->scaleNotes->rootNote();
     }
 
     /**
@@ -67,7 +40,7 @@ class Scale
      */
     public function secondNote(): Note
     {
-        return $this->secondNote;
+        return $this->scaleNotes->secondNote();
     }
 
     /**
@@ -75,7 +48,7 @@ class Scale
      */
     public function thirdNote(): Note
     {
-        return $this->thirdNote;
+        return $this->scaleNotes->thirdNote();
     }
 
     /**
@@ -83,7 +56,7 @@ class Scale
      */
     public function fourthNote(): Note
     {
-        return $this->fourthNote;
+        return $this->scaleNotes->fourthNote();
     }
 
     /**
@@ -91,7 +64,7 @@ class Scale
      */
     public function fifthNote(): Note
     {
-        return $this->fifthNote;
+        return $this->scaleNotes->fifthNote();
     }
 
     /**
@@ -99,7 +72,7 @@ class Scale
      */
     public function sixthNote(): Note
     {
-        return $this->sixthNote;
+        return $this->scaleNotes->sixthNote();
     }
 
     /**
@@ -107,6 +80,14 @@ class Scale
      */
     public function seventhNote(): Note
     {
-        return $this->seventhNote;
+        return $this->scaleNotes->seventhNote();
+    }
+
+    /**
+     * @return ScaleType
+     */
+    public function scaleType(): ScaleType
+    {
+        return $this->scaleType;
     }
 }

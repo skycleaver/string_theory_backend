@@ -21,6 +21,9 @@ $app->get('chord', [
 $app->get('chord_guitar', [
     'as' => 'chord_guitar', 'uses' => 'ChordController@getChordGuitar'
 ]);
+$app->get('chords_by_scale', [
+    'as' => 'chords_by_scale', 'uses' => 'ChordController@getChordsByScale'
+]);
 // SCALE CONTROLLER
 $app->get('scale', [
     'as' => 'scale', 'uses' => 'ScaleController@getScale'

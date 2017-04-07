@@ -25,7 +25,7 @@ class GetChord
         Note $chordRoot,
         ChordType $chordType,
         ChordSeventh $chordSeventh = null
-    )
+    ): Chord
     {
         $chord = $this->getTriadChord($chordRoot, $chordType);
         if (!is_null($chordSeventh)) {
@@ -38,9 +38,20 @@ class GetChord
         }
 
         return $chord;
+    }
 
-        //$_POST['chord_guitar'] = $this->getChordGuitar($_POST['chord']);
-        //$_POST['chord_guitar_json'] = json_encode($_POST['chord_guitar']);
+    private function getTriadChord(Note $chordRoot, ChordType $chordType): Chord
+    {
+        switch ($chordType->value()) {
+            case ChordTypeValues::MAJOR:
+                return $this->getMajorChord($chordRoot);
+            case ChordTypeValues::MINOR:
+                return $this->getMinorChord($chordRoot);
+            case ChordTypeValues::DIMINISHED:
+                return $this->getDiminishedChord($chordRoot);
+            default:
+                throw new \Exception('Unrecognized chord type ' . $chordType->value());
+        }
     }
 
     private function getMajorChord(Note $chordRoot): Chord
@@ -61,16 +72,13 @@ class GetChord
         );
     }
 
-    private function getTriadChord(Note $chordRoot, ChordType $chordType): Chord
+    private function getDiminishedChord($chordRoot): Chord
     {
-        switch ($chordType->value()) {
-            case ChordTypeValues::MAJOR:
-                return $this->getMajorChord($chordRoot);
-            case ChordTypeValues::MINOR:
-                return $this->getMinorChord($chordRoot);
-            default:
-                throw new \Exception('Unrecognized chord type ' . $chordType->value());
-        }
+        return new Chord(
+            $chordRoot,
+            $this->getInterval->getMinorThird($chordRoot),
+            $this->getInterval->getDiminishedFifth($chordRoot)
+        );
     }
 
     private function getChordWithSeventh(

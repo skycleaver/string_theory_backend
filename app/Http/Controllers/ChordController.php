@@ -6,13 +6,19 @@ use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
 use Chords\ChordTypes\ChordTypeValues;
 use Chords\GetChord;
+use Chords\GetChordsByScale;
 use Formatters\BasicChordFormatter;
+use Formatters\BasicChordsFormatter;
 use Formatters\GuitarChordFormatter;
 use Intervals\GetInterval;
 use Laravel\Lumen\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use Notes\Note;
 use Notes\NoteValues;
+use Scales\GetScale;
+use Scales\Scale;
+use Scales\ScaleTypes\ScaleType;
+use Scales\ScaleTypes\ScaleTypeValues;
 
 class ChordController extends BaseController
 {
@@ -24,14 +30,20 @@ class ChordController extends BaseController
      * @var GuitarChordFormatter
      */
     private $guitarChordFormatter;
+    /**
+     * @var BasicChordsFormatter
+     */
+    private $basicChordsFormatter;
 
     public function __construct(
         BasicChordFormatter $basicChordFormatter,
-        GuitarChordFormatter $guitarChordFormatter
+        GuitarChordFormatter $guitarChordFormatter,
+        BasicChordsFormatter $basicChordsFormatter
     )
     {
         $this->basicChordFormatter = $basicChordFormatter;
         $this->guitarChordFormatter = $guitarChordFormatter;
+        $this->basicChordsFormatter = $basicChordsFormatter;
     }
 
     public function getChord(Request $request)
@@ -80,5 +92,22 @@ class ChordController extends BaseController
         )->withCallback($request->input('callback'));
     }
 
+    public function getChordsByScale(Request $request)
+    {
+        $scaleRoot = $request->get('scale_root', 'c');
+        $scaleType = $request->get('scale_name', ScaleTypeValues::MAJOR);
+
+        $getScale = new GetScale(new GetInterval(new NoteValues()));
+        $scale = $getScale->getScale(new Note($scaleRoot), new ScaleType($scaleType));
+
+        $getChordsByScale = new GetChordsByScale();
+        $chords = $getChordsByScale->get($scale);
+
+        return response()->json(
+            [
+                'chords' => $this->basicChordsFormatter->get($chords)
+            ]
+        )->withCallback($request->input('callback'));
+    }
 
 }

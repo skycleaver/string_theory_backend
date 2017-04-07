@@ -9,6 +9,7 @@ class ChordTypeValues
 
     const MAJOR = 'major';
     const MINOR = 'minor';
+    const DIMINISHED = 'diminished';
 
     public function contains(string $chordType): bool
     {
