@@ -21,9 +21,12 @@ class BasicChordsFormatter
         $chordsFormatted = [];
         foreach ($chords as $chord) {
             /** @var Chord $chord */
-            $chordsFormatted[]['chord_root'] = $chord->rootNote();
-            $chordsFormatted[]['chord_type'] = $chord->chordType();
-            $chordsFormatted[]['chord'] = $this->basicChordFormatter->get($chord);
+            $chordFormatted = [
+                'chord_root' => $chord->rootNote()->value(),
+                'chord_type' => $chord->chordType(),
+                'chord' => $this->basicChordFormatter->get($chord),
+            ];
+            $chordsFormatted[] = $chordFormatted;
         }
         return json_encode($chordsFormatted);
     }

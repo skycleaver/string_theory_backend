@@ -96,7 +96,7 @@ class GetChordsByScale
             new ChordType(ChordTypeValues::MAJOR)
         );
         $chords[] = $this->getChord->getChord(
-            $scale->sixthNote(),
+            $scale->seventhNote(),
             new ChordType(ChordTypeValues::MAJOR)
         );
         return $chords;
