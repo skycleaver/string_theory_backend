@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf96b16b-c5ad-4fb4-ac3a-8d64142aa410" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Chords/Chord.php" afterPath="$PROJECT_DIR$/Domains/Chords/Chord.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php" afterPath="$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventh.php" afterPath="$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventh.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php" afterPath="$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,58 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
+      <file leaf-file-name="MyTestCase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/MyTestCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
-              <folding>
-                <element signature="e#624#667#0#PHP" expanded="false" />
-                <element signature="e#706#750#0#PHP" expanded="false" />
-                <element signature="e#790#834#0#PHP" expanded="false" />
-                <element signature="e#875#1255#0#PHP" expanded="false" />
-                <element signature="e#1261#2115#0#PHP" expanded="false" />
-                <element signature="e#1582#1752#0#PHP" expanded="false" />
-                <element signature="e#1770#2065#0#PHP" expanded="false" />
-                <element signature="e#1800#2055#1#PHP" expanded="false" />
-                <element signature="e#1770#2108#0#PHP" expanded="false" />
-                <element signature="e#2636#2982#0#PHP" expanded="false" />
-                <element signature="e#2995#3632#0#PHP" expanded="false" />
-                <element signature="e#3457#3582#0#PHP" expanded="false" />
-                <element signature="e#3487#3572#1#PHP" expanded="false" />
-                <element signature="e#3457#3625#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuitarChordFormatter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Formatters/GuitarChordFormatter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chord.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Domains/Chords/Chord.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-              <folding>
-                <element signature="e#26#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChordNotes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -83,6 +36,7 @@
     <findStrings>
       <find>de</find>
       <find>defa</find>
+      <find>data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,7 +54,6 @@
         <option value="$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventhValues.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordType.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php" />
         <option value="$PROJECT_DIR$/app/Http/Formatters/GuitarChordFormatter.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Domains/Scales/ScaleTypeValues.php" />
@@ -116,11 +69,17 @@
         <option value="$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php" />
         <option value="$PROJECT_DIR$/Domains/Scales/ScaleNotes/ScaleNotes.php" />
         <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/GetChord.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventh.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/Chord.php" />
+        <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php" />
+        <option value="$PROJECT_DIR$/tests/app/Http/Controllers/ChordControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/app/Http/Controllers/GetChordTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/lumen/tests/MyTestCase.php" />
+        <option value="$PROJECT_DIR$/tests/app/Http/Controllers/GetChordGuitarTest.php" />
+        <option value="$PROJECT_DIR$/tests/MyTestCase.php" />
       </list>
     </option>
   </component>
@@ -234,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,6 +202,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,64 +272,6 @@
               <option name="myItemId" value="Domains" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domains" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScaleNotes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domains" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domains" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -369,29 +309,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChordTypes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domains" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chords" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChordSevenths" />
+              <option name="myItemId" value="ChordNotes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,28 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="st_back" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Formatters" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,16 +370,18 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="SearchEverywhereHistoryKey" value="chordnote&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordNotes/ChordNotes.php&#10;web&#9;FILE&#9;file:///var/www/html/st_back/routes/web.php&#10;chordtypevalu&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordTypes/ChordTypeValues.php&#10;chordse&#9;FILE&#9;file:///var/www/html/string_theory2/Domains/Chords/ChordSevenths/ChordSeventh.php&#10;autoload_nam&#9;FILE&#9;file:///var/www/html/string_theory2/vendor/composer/autoload_namespaces.php" />
+    <property name="SearchEverywhereHistoryKey" value="Laravel\Lumen\Application&#9;null&#9;null&#10;web&#9;FILE&#9;file:///var/www/html/st_back/routes/web.php&#10;chordnote&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordNotes/ChordNotes.php&#10;chordtypevalu&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordTypes/ChordTypeValues.php&#10;chordse&#9;FILE&#9;file:///var/www/html/string_theory2/Domains/Chords/ChordSevenths/ChordSeventh.php&#10;autoload_nam&#9;FILE&#9;file:///var/www/html/string_theory2/vendor/composer/autoload_namespaces.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/Domains/Scales/ScaleTypes" />
       <recent name="$PROJECT_DIR$/Domains/Chords/ChordTypes" />
       <recent name="$PROJECT_DIR$/Domains/Chords/ChordSevenths" />
@@ -598,12 +496,14 @@
       <workItem from="1491492183613" duration="3411000" />
       <workItem from="1491556115794" duration="3087000" />
       <workItem from="1491561694107" duration="4838000" />
-      <workItem from="1491574078276" duration="851000" />
+      <workItem from="1491574078276" duration="1334000" />
+      <workItem from="1491815156738" duration="3037000" />
+      <workItem from="1491903023508" duration="2122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36894000" />
+    <option name="totallyTimeSpent" value="42536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -611,6 +511,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -639,105 +540,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/Chord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="e#26#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#26#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="38" />
-          <folding>
-            <element signature="e#26#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/Chord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#26#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#624#667#0#PHP" expanded="false" />
+            <element signature="e#706#750#0#PHP" expanded="false" />
+            <element signature="e#790#834#0#PHP" expanded="false" />
+            <element signature="e#875#1255#0#PHP" expanded="false" />
+            <element signature="e#2636#2982#0#PHP" expanded="false" />
+            <element signature="e#2995#3632#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -752,7 +566,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#624#667#0#PHP" expanded="false" />
+            <element signature="e#706#750#0#PHP" expanded="false" />
+            <element signature="e#790#834#0#PHP" expanded="false" />
+            <element signature="e#875#1255#0#PHP" expanded="false" />
+            <element signature="e#2636#2982#0#PHP" expanded="false" />
+            <element signature="e#2995#3632#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -772,13 +593,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExampleController.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/lumen-framework/src/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3124">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -835,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -877,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +692,7 @@
         <state relative-caret-position="414">
           <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <element signature="e#26#52#0#PHP" expanded="true" />
+            <element signature="e#26#52#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -904,16 +710,8 @@
         <state relative-caret-position="512">
           <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="86" />
           <folding>
-            <element signature="e#40#75#0#PHP" expanded="true" />
+            <element signature="e#40#75#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +720,7 @@
         <state relative-caret-position="664">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="e#26#58#0#PHP" expanded="true" />
+            <element signature="e#26#58#0#PHP" expanded="false" />
             <element signature="e#1955#3056#0#PHP" expanded="false" />
           </folding>
         </state>
@@ -932,15 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +738,7 @@
         <state relative-caret-position="512">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#26#41#0#PHP" expanded="true" />
+            <element signature="e#26#41#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -959,7 +748,7 @@
         <state relative-caret-position="943">
           <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
           <folding>
-            <element signature="e#37#63#0#PHP" expanded="true" />
+            <element signature="e#37#63#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -972,29 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventhValues.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#26#64#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,56 +772,1436 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
-          <folding>
-            <element signature="e#624#667#0#PHP" expanded="false" />
-            <element signature="e#706#750#0#PHP" expanded="false" />
-            <element signature="e#790#834#0#PHP" expanded="false" />
-            <element signature="e#875#1255#0#PHP" expanded="false" />
-            <element signature="e#1261#2115#0#PHP" expanded="false" />
-            <element signature="e#1582#1752#0#PHP" expanded="false" />
-            <element signature="e#1770#2065#0#PHP" expanded="false" />
-            <element signature="e#1800#2055#1#PHP" expanded="false" />
-            <element signature="e#1770#2108#0#PHP" expanded="false" />
-            <element signature="e#2636#2982#0#PHP" expanded="false" />
-            <element signature="e#2995#3632#0#PHP" expanded="false" />
-            <element signature="e#3457#3582#0#PHP" expanded="false" />
-            <element signature="e#3487#3572#1#PHP" expanded="false" />
-            <element signature="e#3457#3625#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Formatters/GuitarChordFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="782">
           <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#26#64#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Chords/Chord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#26#59#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+        <state relative-caret-position="252">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/Chord.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="276">
+          <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
           <folding>
-            <element signature="e#26#59#0#PHP" expanded="true" />
+            <element signature="e#624#667#0#PHP" expanded="false" />
+            <element signature="e#706#750#0#PHP" expanded="false" />
+            <element signature="e#790#834#0#PHP" expanded="false" />
+            <element signature="e#875#1255#0#PHP" expanded="false" />
+            <element signature="e#2636#2982#0#PHP" expanded="false" />
+            <element signature="e#2995#3632#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/lumen-framework/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4002">
+          <caret line="781" column="29" lean-forward="false" selection-start-line="781" selection-start-column="25" selection-end-line="781" selection-end-column="29" />
+          <folding>
+            <element signature="e#734#829#0#PHP" expanded="false" />
+            <element signature="e#884#975#0#PHP" expanded="false" />
+            <element signature="e#1006#1088#0#PHP" expanded="false" />
+            <element signature="e#1136#1209#0#PHP" expanded="false" />
+            <element signature="e#1252#1348#0#PHP" expanded="false" />
+            <element signature="e#1393#1489#0#PHP" expanded="false" />
+            <element signature="e#1531#1602#0#PHP" expanded="false" />
+            <element signature="e#1634#1758#0#PHP" expanded="false" />
+            <element signature="e#1763#1999#0#PHP" expanded="false" />
+            <element signature="e#2005#2087#0#PHP" expanded="false" />
+            <element signature="e#2092#2373#0#PHP" expanded="false" />
+            <element signature="e#2379#2469#0#PHP" expanded="false" />
+            <element signature="e#2474#2570#0#PHP" expanded="false" />
+            <element signature="e#2576#2685#0#PHP" expanded="false" />
+            <element signature="e#2690#2762#0#PHP" expanded="false" />
+            <element signature="e#2768#2886#0#PHP" expanded="false" />
+            <element signature="e#2891#3318#0#PHP" expanded="false" />
+            <element signature="e#2981#3290#0#PHP" expanded="false" />
+            <element signature="e#3108#3253#0#PHP" expanded="false" />
+            <element signature="e#3158#3239#0#PHP" expanded="false" />
+            <element signature="e#3324#3519#0#PHP" expanded="false" />
+            <element signature="e#3524#4071#0#PHP" expanded="false" />
+            <element signature="e#3574#3675#0#PHP" expanded="false" />
+            <element signature="e#3685#3800#0#PHP" expanded="false" />
+            <element signature="e#3865#3953#0#PHP" expanded="false" />
+            <element signature="e#3963#4065#0#PHP" expanded="false" />
+            <element signature="e#4077#4197#0#PHP" expanded="false" />
+            <element signature="e#4202#4308#0#PHP" expanded="false" />
+            <element signature="e#4314#4436#0#PHP" expanded="false" />
+            <element signature="e#4441#4875#0#PHP" expanded="false" />
+            <element signature="e#4536#4828#0#PHP" expanded="false" />
+            <element signature="e#4881#4975#0#PHP" expanded="false" />
+            <element signature="e#4980#5580#0#PHP" expanded="false" />
+            <element signature="e#5036#5181#0#PHP" expanded="false" />
+            <element signature="e#5061#5180#1#PHP" expanded="false" />
+            <element signature="e#5192#5351#0#PHP" expanded="false" />
+            <element signature="e#5224#5350#1#PHP" expanded="false" />
+            <element signature="e#5362#5573#0#PHP" expanded="false" />
+            <element signature="e#5420#5572#1#PHP" expanded="false" />
+            <element signature="e#5586#5680#0#PHP" expanded="false" />
+            <element signature="e#5685#6255#0#PHP" expanded="false" />
+            <element signature="e#5749#5989#0#PHP" expanded="false" />
+            <element signature="e#5811#5988#1#PHP" expanded="false" />
+            <element signature="e#6000#6248#0#PHP" expanded="false" />
+            <element signature="e#6066#6247#1#PHP" expanded="false" />
+            <element signature="e#6261#6355#0#PHP" expanded="false" />
+            <element signature="e#6360#6640#0#PHP" expanded="false" />
+            <element signature="e#6415#6633#0#PHP" expanded="false" />
+            <element signature="e#6471#6632#1#PHP" expanded="false" />
+            <element signature="e#6646#6740#0#PHP" expanded="false" />
+            <element signature="e#6745#7122#0#PHP" expanded="false" />
+            <element signature="e#6802#6943#0#PHP" expanded="false" />
+            <element signature="e#6828#6942#1#PHP" expanded="false" />
+            <element signature="e#6953#7115#0#PHP" expanded="false" />
+            <element signature="e#6985#7114#1#PHP" expanded="false" />
+            <element signature="e#7128#7222#0#PHP" expanded="false" />
+            <element signature="e#7227#7424#0#PHP" expanded="false" />
+            <element signature="e#7287#7417#0#PHP" expanded="false" />
+            <element signature="e#7316#7416#1#PHP" expanded="false" />
+            <element signature="e#7430#7524#0#PHP" expanded="false" />
+            <element signature="e#7529#7686#0#PHP" expanded="false" />
+            <element signature="e#7587#7679#0#PHP" expanded="false" />
+            <element signature="e#7614#7678#1#PHP" expanded="false" />
+            <element signature="e#7692#7786#0#PHP" expanded="false" />
+            <element signature="e#7791#8153#0#PHP" expanded="false" />
+            <element signature="e#7851#8146#0#PHP" expanded="false" />
+            <element signature="e#7874#8145#1#PHP" expanded="false" />
+            <element signature="e#7907#8134#0#PHP" expanded="false" />
+            <element signature="e#7957#8114#0#PHP" expanded="false" />
+            <element signature="e#8159#8253#0#PHP" expanded="false" />
+            <element signature="e#8258#8492#0#PHP" expanded="false" />
+            <element signature="e#8319#8485#0#PHP" expanded="false" />
+            <element signature="e#8349#8484#1#PHP" expanded="false" />
+            <element signature="e#8498#8592#0#PHP" expanded="false" />
+            <element signature="e#8597#8826#0#PHP" expanded="false" />
+            <element signature="e#8654#8819#0#PHP" expanded="false" />
+            <element signature="e#8681#8818#1#PHP" expanded="false" />
+            <element signature="e#8832#8926#0#PHP" expanded="false" />
+            <element signature="e#8931#9080#0#PHP" expanded="false" />
+            <element signature="e#8988#9073#0#PHP" expanded="false" />
+            <element signature="e#9014#9072#1#PHP" expanded="false" />
+            <element signature="e#9086#9180#0#PHP" expanded="false" />
+            <element signature="e#9185#9409#0#PHP" expanded="false" />
+            <element signature="e#9241#9402#0#PHP" expanded="false" />
+            <element signature="e#9266#9401#1#PHP" expanded="false" />
+            <element signature="e#9415#9509#0#PHP" expanded="false" />
+            <element signature="e#9514#9887#0#PHP" expanded="false" />
+            <element signature="e#9569#9880#0#PHP" expanded="false" />
+            <element signature="e#9613#9879#1#PHP" expanded="false" />
+            <element signature="e#9639#9869#0#PHP" expanded="false" />
+            <element signature="e#9775#9869#0#PHP" expanded="false" />
+            <element signature="e#9893#10025#0#PHP" expanded="false" />
+            <element signature="e#10030#10170#0#PHP" expanded="false" />
+            <element signature="e#10176#10270#0#PHP" expanded="false" />
+            <element signature="e#10275#10671#0#PHP" expanded="false" />
+            <element signature="e#10332#10482#0#PHP" expanded="false" />
+            <element signature="e#10358#10481#1#PHP" expanded="false" />
+            <element signature="e#10492#10664#0#PHP" expanded="false" />
+            <element signature="e#10529#10663#1#PHP" expanded="false" />
+            <element signature="e#10677#10795#0#PHP" expanded="false" />
+            <element signature="e#10800#11019#0#PHP" expanded="false" />
+            <element signature="e#10860#11012#0#PHP" expanded="false" />
+            <element signature="e#11025#11221#0#PHP" expanded="false" />
+            <element signature="e#11226#11655#0#PHP" expanded="false" />
+            <element signature="e#11299#11403#0#PHP" expanded="false" />
+            <element signature="e#11413#11539#0#PHP" expanded="false" />
+            <element signature="e#11439#11538#2#PHP" expanded="false" />
+            <element signature="e#11413#11622#0#PHP" expanded="false" />
+            <element signature="e#11558#11621#2#PHP" expanded="false" />
+            <element signature="e#11661#11772#0#PHP" expanded="false" />
+            <element signature="e#11777#12012#0#PHP" expanded="false" />
+            <element signature="e#11839#12005#0#PHP" expanded="false" />
+            <element signature="e#11899#12004#1#PHP" expanded="false" />
+            <element signature="e#12018#12130#0#PHP" expanded="false" />
+            <element signature="e#12135#12322#0#PHP" expanded="false" />
+            <element signature="e#12198#12315#0#PHP" expanded="false" />
+            <element signature="e#12253#12314#1#PHP" expanded="false" />
+            <element signature="e#12328#12422#0#PHP" expanded="false" />
+            <element signature="e#12427#12788#0#PHP" expanded="false" />
+            <element signature="e#12490#12781#0#PHP" expanded="false" />
+            <element signature="e#12521#12780#1#PHP" expanded="false" />
+            <element signature="e#12794#12891#0#PHP" expanded="false" />
+            <element signature="e#12896#13121#0#PHP" expanded="false" />
+            <element signature="e#12947#13115#0#PHP" expanded="false" />
+            <element signature="e#13050#13115#0#PHP" expanded="false" />
+            <element signature="e#13127#13221#0#PHP" expanded="false" />
+            <element signature="e#13226#13397#0#PHP" expanded="false" />
+            <element signature="e#13290#13390#0#PHP" expanded="false" />
+            <element signature="e#13314#13389#1#PHP" expanded="false" />
+            <element signature="e#13403#13497#0#PHP" expanded="false" />
+            <element signature="e#13502#13750#0#PHP" expanded="false" />
+            <element signature="e#13563#13743#0#PHP" expanded="false" />
+            <element signature="e#13593#13742#1#PHP" expanded="false" />
+            <element signature="e#13756#13850#0#PHP" expanded="false" />
+            <element signature="e#13855#14055#0#PHP" expanded="false" />
+            <element signature="e#13911#14048#0#PHP" expanded="false" />
+            <element signature="e#13936#14047#1#PHP" expanded="false" />
+            <element signature="e#14061#14267#0#PHP" expanded="false" />
+            <element signature="e#14272#14537#0#PHP" expanded="false" />
+            <element signature="e#14389#14482#0#PHP" expanded="false" />
+            <element signature="e#14543#14665#0#PHP" expanded="false" />
+            <element signature="e#14670#15000#0#PHP" expanded="false" />
+            <element signature="e#14717#14795#0#PHP" expanded="false" />
+            <element signature="e#14910#14994#0#PHP" expanded="false" />
+            <element signature="e#15006#15220#0#PHP" expanded="false" />
+            <element signature="e#15225#15878#0#PHP" expanded="false" />
+            <element signature="e#15290#15872#0#PHP" expanded="false" />
+            <element signature="e#15377#15560#0#PHP" expanded="false" />
+            <element signature="e#15463#15560#0#PHP" expanded="false" />
+            <element signature="e#15571#15872#0#PHP" expanded="false" />
+            <element signature="e#15664#15862#0#PHP" expanded="false" />
+            <element signature="e#15752#15862#0#PHP" expanded="false" />
+            <element signature="e#15884#16035#0#PHP" expanded="false" />
+            <element signature="e#16040#16241#0#PHP" expanded="false" />
+            <element signature="e#16164#16235#0#PHP" expanded="false" />
+            <element signature="e#16247#16369#0#PHP" expanded="false" />
+            <element signature="e#16374#17328#0#PHP" expanded="false" />
+            <element signature="e#16447#17040#0#PHP" expanded="false" />
+            <element signature="e#17051#17322#0#PHP" expanded="false" />
+            <element signature="e#17208#17312#0#PHP" expanded="false" />
+            <element signature="e#17334#17426#0#PHP" expanded="false" />
+            <element signature="e#17431#17500#0#PHP" expanded="false" />
+            <element signature="e#17506#17602#0#PHP" expanded="false" />
+            <element signature="e#17607#17699#0#PHP" expanded="false" />
+            <element signature="e#17705#17825#0#PHP" expanded="false" />
+            <element signature="e#17830#18198#0#PHP" expanded="false" />
+            <element signature="e#17883#17986#0#PHP" expanded="false" />
+            <element signature="e#17996#18152#0#PHP" expanded="false" />
+            <element signature="e#18079#18152#0#PHP" expanded="false" />
+            <element signature="e#18204#18294#0#PHP" expanded="false" />
+            <element signature="e#18299#18387#0#PHP" expanded="false" />
+            <element signature="e#18393#18516#0#PHP" expanded="false" />
+            <element signature="e#18521#18647#0#PHP" expanded="false" />
+            <element signature="e#18653#18741#0#PHP" expanded="false" />
+            <element signature="e#18746#18854#0#PHP" expanded="false" />
+            <element signature="e#18860#18961#0#PHP" expanded="false" />
+            <element signature="e#18966#19053#0#PHP" expanded="false" />
+            <element signature="e#19059#19144#0#PHP" expanded="false" />
+            <element signature="e#19149#19245#0#PHP" expanded="false" />
+            <element signature="e#19251#19380#0#PHP" expanded="false" />
+            <element signature="e#19385#19739#0#PHP" expanded="false" />
+            <element signature="e#19745#19863#0#PHP" expanded="false" />
+            <element signature="e#19913#19994#0#PHP" expanded="false" />
+            <element signature="e#20091#20412#0#PHP" expanded="false" />
+            <element signature="e#20184#20402#0#PHP" expanded="false" />
+            <element signature="e#20241#20388#0#PHP" expanded="false" />
+            <element signature="e#20504#20586#0#PHP" expanded="false" />
+            <element signature="e#20591#21942#0#PHP" expanded="false" />
+            <element signature="e#20668#21935#0#PHP" expanded="false" />
+            <element signature="e#21948#22059#0#PHP" expanded="false" />
+            <element signature="e#22092#24383#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/ForwardCompatibility/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10045">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#229#267#0#PHP" expanded="false" />
+            <element signature="e#314#341#0#PHP" expanded="false" />
+            <element signature="e#378#563#0#PHP" expanded="false" />
+            <element signature="n#assertArrayHasKey#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#652#836#0#PHP" expanded="false" />
+            <element signature="e#712#825#0#PHP" expanded="false" />
+            <element signature="e#846#1051#0#PHP" expanded="false" />
+            <element signature="e#924#1040#0#PHP" expanded="false" />
+            <element signature="e#1198#1456#0#PHP" expanded="false" />
+            <element signature="n#assertArraySubset#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#1565#1772#0#PHP" expanded="false" />
+            <element signature="e#1645#1761#0#PHP" expanded="false" />
+            <element signature="e#1782#1987#0#PHP" expanded="false" />
+            <element signature="e#1860#1976#0#PHP" expanded="false" />
+            <element signature="e#2146#2341#0#PHP" expanded="false" />
+            <element signature="n#assertArrayNotHasKey#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#2433#2617#0#PHP" expanded="false" />
+            <element signature="e#2493#2606#0#PHP" expanded="false" />
+            <element signature="e#2627#2832#0#PHP" expanded="false" />
+            <element signature="e#2705#2821#0#PHP" expanded="false" />
+            <element signature="e#3039#3323#0#PHP" expanded="false" />
+            <element signature="n#assertContains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#3504#4354#0#PHP" expanded="false" />
+            <element signature="e#3817#4193#0#PHP" expanded="false" />
+            <element signature="e#3861#4039#0#PHP" expanded="false" />
+            <element signature="e#3910#4024#0#PHP" expanded="false" />
+            <element signature="e#4194#4354#0#PHP" expanded="false" />
+            <element signature="e#4219#4343#0#PHP" expanded="false" />
+            <element signature="e#4429#4903#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeContains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#5130#5390#0#PHP" expanded="false" />
+            <element signature="e#5403#5695#0#PHP" expanded="false" />
+            <element signature="n#assertNotContains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#5879#6893#0#PHP" expanded="false" />
+            <element signature="e#6276#6732#0#PHP" expanded="false" />
+            <element signature="e#6320#6498#0#PHP" expanded="false" />
+            <element signature="e#6369#6483#0#PHP" expanded="false" />
+            <element signature="e#6733#6893#0#PHP" expanded="false" />
+            <element signature="e#6758#6882#0#PHP" expanded="false" />
+            <element signature="e#6968#7450#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotContains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#7680#7943#0#PHP" expanded="false" />
+            <element signature="e#7956#8166#0#PHP" expanded="false" />
+            <element signature="n#assertContainsOnly#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#8282#8529#0#PHP" expanded="false" />
+            <element signature="e#8402#8518#0#PHP" expanded="false" />
+            <element signature="e#8539#8639#0#PHP" expanded="false" />
+            <element signature="e#8649#8860#0#PHP" expanded="false" />
+            <element signature="e#8873#9093#0#PHP" expanded="false" />
+            <element signature="n#assertContainsOnlyInstancesOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#9203#9450#0#PHP" expanded="false" />
+            <element signature="e#9323#9439#0#PHP" expanded="false" />
+            <element signature="e#9460#9668#0#PHP" expanded="false" />
+            <element signature="e#9681#10067#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeContainsOnly#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#10229#10416#0#PHP" expanded="false" />
+            <element signature="e#10429#10647#0#PHP" expanded="false" />
+            <element signature="n#assertNotContainsOnly#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#10766#11013#0#PHP" expanded="false" />
+            <element signature="e#10886#11002#0#PHP" expanded="false" />
+            <element signature="e#11023#11123#0#PHP" expanded="false" />
+            <element signature="e#11133#11424#0#PHP" expanded="false" />
+            <element signature="e#11437#11838#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotContainsOnly#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#12003#12193#0#PHP" expanded="false" />
+            <element signature="e#12206#12398#0#PHP" expanded="false" />
+            <element signature="n#assertCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#12494#12611#0#PHP" expanded="false" />
+            <element signature="e#12621#12848#0#PHP" expanded="false" />
+            <element signature="e#12858#12999#0#PHP" expanded="false" />
+            <element signature="e#13012#13327#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#13469#13631#0#PHP" expanded="false" />
+            <element signature="e#13644#13836#0#PHP" expanded="false" />
+            <element signature="n#assertNotCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#13935#14052#0#PHP" expanded="false" />
+            <element signature="e#14062#14289#0#PHP" expanded="false" />
+            <element signature="e#14503#14818#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#14963#15128#0#PHP" expanded="false" />
+            <element signature="e#15141#15421#0#PHP" expanded="false" />
+            <element signature="n#assertEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#15841#16257#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#16465#16714#0#PHP" expanded="false" />
+            <element signature="e#16727#17011#0#PHP" expanded="false" />
+            <element signature="n#assertNotEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#17518#17938#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#18149#18401#0#PHP" expanded="false" />
+            <element signature="e#18414#18593#0#PHP" expanded="false" />
+            <element signature="n#assertEmpty#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#18740#18993#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeEmpty#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#19119#19253#0#PHP" expanded="false" />
+            <element signature="e#19266#19449#0#PHP" expanded="false" />
+            <element signature="n#assertNotEmpty#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#19619#19876#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotEmpty#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#20005#20142#0#PHP" expanded="false" />
+            <element signature="e#20155#20322#0#PHP" expanded="false" />
+            <element signature="n#assertGreaterThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#20499#20754#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeGreaterThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#20893#21052#0#PHP" expanded="false" />
+            <element signature="e#21065#21244#0#PHP" expanded="false" />
+            <element signature="n#assertGreaterThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#21346#21468#0#PHP" expanded="false" />
+            <element signature="e#21481#21748#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeGreaterThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#21894#22060#0#PHP" expanded="false" />
+            <element signature="e#22073#22240#0#PHP" expanded="false" />
+            <element signature="n#assertLessThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#22411#22666#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeLessThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#22802#22958#0#PHP" expanded="false" />
+            <element signature="e#22971#23150#0#PHP" expanded="false" />
+            <element signature="n#assertLessThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#23335#23602#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeLessThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#23745#23908#0#PHP" expanded="false" />
+            <element signature="e#23921#24191#0#PHP" expanded="false" />
+            <element signature="n#assertFileEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#24438#24655#0#PHP" expanded="false" />
+            <element signature="e#24668#24942#0#PHP" expanded="false" />
+            <element signature="n#assertFileNotEquals#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#25192#25412#0#PHP" expanded="false" />
+            <element signature="e#25425#25699#0#PHP" expanded="false" />
+            <element signature="n#assertStringEqualsFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#25913#26121#0#PHP" expanded="false" />
+            <element signature="e#26134#26412#0#PHP" expanded="false" />
+            <element signature="n#assertStringNotEqualsFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#26629#26840#0#PHP" expanded="false" />
+            <element signature="e#26853#26976#0#PHP" expanded="false" />
+            <element signature="n#assertIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#27061#27175#0#PHP" expanded="false" />
+            <element signature="e#27318#27456#0#PHP" expanded="false" />
+            <element signature="n#assertNotIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#27544#27658#0#PHP" expanded="false" />
+            <element signature="e#27861#27995#0#PHP" expanded="false" />
+            <element signature="n#assertIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#28080#28194#0#PHP" expanded="false" />
+            <element signature="e#28337#28475#0#PHP" expanded="false" />
+            <element signature="n#assertNotIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#28563#28677#0#PHP" expanded="false" />
+            <element signature="e#28880#29000#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#29091#29206#0#PHP" expanded="false" />
+            <element signature="e#29355#29483#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryNotExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#29577#29692#0#PHP" expanded="false" />
+            <element signature="e#29901#30037#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#30248#30388#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryNotIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#30605#30741#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#30952#31092#0#PHP" expanded="false" />
+            <element signature="n#assertDirectoryNotIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#31309#31423#0#PHP" expanded="false" />
+            <element signature="n#assertFileExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#31508#31622#0#PHP" expanded="false" />
+            <element signature="e#31765#31887#0#PHP" expanded="false" />
+            <element signature="n#assertFileNotExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#31975#32089#0#PHP" expanded="false" />
+            <element signature="e#32292#32418#0#PHP" expanded="false" />
+            <element signature="n#assertFileIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#32604#32734#0#PHP" expanded="false" />
+            <element signature="n#assertFileNotIsReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#32926#33052#0#PHP" expanded="false" />
+            <element signature="n#assertFileIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#33238#33368#0#PHP" expanded="false" />
+            <element signature="n#assertFileNotIsWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#33560#33742#0#PHP" expanded="false" />
+            <element signature="n#assertTrue#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#33893#34079#0#PHP" expanded="false" />
+            <element signature="n#assertNotTrue#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#34253#34436#0#PHP" expanded="false" />
+            <element signature="n#assertFalse#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#34589#34776#0#PHP" expanded="false" />
+            <element signature="n#assertNotFalse#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#34952#35069#0#PHP" expanded="false" />
+            <element signature="n#assertNull#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#35214#35335#0#PHP" expanded="false" />
+            <element signature="n#assertNotNull#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#35503#35622#0#PHP" expanded="false" />
+            <element signature="n#assertFinite#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#35771#35892#0#PHP" expanded="false" />
+            <element signature="n#assertInfinite#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#36045#36161#0#PHP" expanded="false" />
+            <element signature="n#assertNan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#36304#36475#0#PHP" expanded="false" />
+            <element signature="n#assertClassHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#36584#36703#0#PHP" expanded="false" />
+            <element signature="e#36713#36893#0#PHP" expanded="false" />
+            <element signature="e#36903#37063#0#PHP" expanded="false" />
+            <element signature="e#37252#37433#0#PHP" expanded="false" />
+            <element signature="n#assertClassNotHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#37545#37664#0#PHP" expanded="false" />
+            <element signature="e#37674#37854#0#PHP" expanded="false" />
+            <element signature="e#37864#38024#0#PHP" expanded="false" />
+            <element signature="e#38251#38429#0#PHP" expanded="false" />
+            <element signature="n#assertClassHasStaticAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#38544#38663#0#PHP" expanded="false" />
+            <element signature="e#38673#38853#0#PHP" expanded="false" />
+            <element signature="e#38863#39023#0#PHP" expanded="false" />
+            <element signature="e#39218#39406#0#PHP" expanded="false" />
+            <element signature="n#assertClassNotHasStaticAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#39524#39643#0#PHP" expanded="false" />
+            <element signature="e#39653#39833#0#PHP" expanded="false" />
+            <element signature="e#39843#40003#0#PHP" expanded="false" />
+            <element signature="e#40266#40436#0#PHP" expanded="false" />
+            <element signature="n#assertObjectHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#40543#40662#0#PHP" expanded="false" />
+            <element signature="e#40672#40852#0#PHP" expanded="false" />
+            <element signature="e#40862#40974#0#PHP" expanded="false" />
+            <element signature="e#41161#41341#0#PHP" expanded="false" />
+            <element signature="n#assertObjectNotHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#41451#41570#0#PHP" expanded="false" />
+            <element signature="e#41580#41760#0#PHP" expanded="false" />
+            <element signature="e#41770#41882#0#PHP" expanded="false" />
+            <element signature="e#42107#42367#0#PHP" expanded="false" />
+            <element signature="n#assertSame#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#42455#42769#0#PHP" expanded="false" />
+            <element signature="e#42575#42769#0#PHP" expanded="false" />
+            <element signature="e#42781#43070#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeSame#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#43202#43354#0#PHP" expanded="false" />
+            <element signature="e#43367#43641#0#PHP" expanded="false" />
+            <element signature="n#assertNotSame#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#43732#44087#0#PHP" expanded="false" />
+            <element signature="e#43855#44087#0#PHP" expanded="false" />
+            <element signature="e#44099#44395#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotSame#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#44530#44685#0#PHP" expanded="false" />
+            <element signature="e#44698#44857#0#PHP" expanded="false" />
+            <element signature="n#assertInstanceOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#44951#45144#0#PHP" expanded="false" />
+            <element signature="e#45320#45552#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeInstanceOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#45678#45824#0#PHP" expanded="false" />
+            <element signature="e#45837#46000#0#PHP" expanded="false" />
+            <element signature="n#assertNotInstanceOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#46097#46290#0#PHP" expanded="false" />
+            <element signature="e#46504#46736#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotInstanceOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#46865#47014#0#PHP" expanded="false" />
+            <element signature="e#47027#47186#0#PHP" expanded="false" />
+            <element signature="n#assertInternalType#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#47282#47396#0#PHP" expanded="false" />
+            <element signature="e#47566#47798#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeInternalType#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#47926#48074#0#PHP" expanded="false" />
+            <element signature="e#48087#48250#0#PHP" expanded="false" />
+            <element signature="n#assertNotInternalType#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#48349#48463#0#PHP" expanded="false" />
+            <element signature="e#48671#48903#0#PHP" expanded="false" />
+            <element signature="n#assertAttributeNotInternalType#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#49034#49185#0#PHP" expanded="false" />
+            <element signature="e#49198#49370#0#PHP" expanded="false" />
+            <element signature="n#assertRegExp#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#49459#49572#0#PHP" expanded="false" />
+            <element signature="e#49582#49694#0#PHP" expanded="false" />
+            <element signature="e#49844#50023#0#PHP" expanded="false" />
+            <element signature="n#assertNotRegExp#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#50115#50228#0#PHP" expanded="false" />
+            <element signature="e#50238#50350#0#PHP" expanded="false" />
+            <element signature="e#50560#50835#0#PHP" expanded="false" />
+            <element signature="n#assertSameSize#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#50927#51154#0#PHP" expanded="false" />
+            <element signature="e#51164#51385#0#PHP" expanded="false" />
+            <element signature="e#51395#51532#0#PHP" expanded="false" />
+            <element signature="e#51545#51824#0#PHP" expanded="false" />
+            <element signature="n#assertNotSameSize#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#51919#52146#0#PHP" expanded="false" />
+            <element signature="e#52156#52377#0#PHP" expanded="false" />
+            <element signature="e#52587#52753#0#PHP" expanded="false" />
+            <element signature="n#assertStringMatchesFormat#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#52854#52966#0#PHP" expanded="false" />
+            <element signature="e#52976#53088#0#PHP" expanded="false" />
+            <element signature="e#53241#53414#0#PHP" expanded="false" />
+            <element signature="n#assertStringNotMatchesFormat#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#53518#53630#0#PHP" expanded="false" />
+            <element signature="e#53640#53752#0#PHP" expanded="false" />
+            <element signature="e#53965#54133#0#PHP" expanded="false" />
+            <element signature="n#assertStringMatchesFormatFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#54300#54412#0#PHP" expanded="false" />
+            <element signature="e#54610#54787#0#PHP" expanded="false" />
+            <element signature="n#assertStringNotMatchesFormatFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#54957#55069#0#PHP" expanded="false" />
+            <element signature="e#55335#55498#0#PHP" expanded="false" />
+            <element signature="n#assertStringStartsWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#55596#55708#0#PHP" expanded="false" />
+            <element signature="e#55718#55830#0#PHP" expanded="false" />
+            <element signature="e#56008#56175#0#PHP" expanded="false" />
+            <element signature="n#assertStringStartsNotWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#56276#56388#0#PHP" expanded="false" />
+            <element signature="e#56398#56510#0#PHP" expanded="false" />
+            <element signature="e#56726#56887#0#PHP" expanded="false" />
+            <element signature="n#assertStringEndsWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#56983#57095#0#PHP" expanded="false" />
+            <element signature="e#57105#57217#0#PHP" expanded="false" />
+            <element signature="e#57371#57536#0#PHP" expanded="false" />
+            <element signature="n#assertStringEndsNotWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#57635#57747#0#PHP" expanded="false" />
+            <element signature="e#57757#57869#0#PHP" expanded="false" />
+            <element signature="e#58083#58244#0#PHP" expanded="false" />
+            <element signature="n#assertXmlFileEqualsXmlFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#58544#58709#0#PHP" expanded="false" />
+            <element signature="n#assertXmlFileNotEqualsXmlFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#59015#59179#0#PHP" expanded="false" />
+            <element signature="n#assertXmlStringEqualsXmlFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#59475#59643#0#PHP" expanded="false" />
+            <element signature="n#assertXmlStringNotEqualsXmlFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#59945#60108#0#PHP" expanded="false" />
+            <element signature="n#assertXmlStringEqualsXmlString#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#60400#60567#0#PHP" expanded="false" />
+            <element signature="n#assertXmlStringNotEqualsXmlString#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#60865#61097#0#PHP" expanded="false" />
+            <element signature="n#assertEqualXMLStructure#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#61504#61632#0#PHP" expanded="false" />
+            <element signature="e#61643#62845#0#PHP" expanded="false" />
+            <element signature="e#61679#62065#0#PHP" expanded="false" />
+            <element signature="e#61823#62051#0#PHP" expanded="false" />
+            <element signature="e#62080#62835#0#PHP" expanded="false" />
+            <element signature="e#62258#62362#0#PHP" expanded="false" />
+            <element signature="e#62381#62821#0#PHP" expanded="false" />
+            <element signature="e#62426#62802#0#PHP" expanded="false" />
+            <element signature="e#62464#62780#1#PHP" expanded="false" />
+            <element signature="e#62994#63333#0#PHP" expanded="false" />
+            <element signature="e#63126#63323#0#PHP" expanded="false" />
+            <element signature="e#63344#63646#0#PHP" expanded="false" />
+            <element signature="e#63420#63635#0#PHP" expanded="false" />
+            <element signature="e#63658#63897#0#PHP" expanded="false" />
+            <element signature="n#assertThat#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#64112#64246#0#PHP" expanded="false" />
+            <element signature="n#assertJson#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#64327#64443#0#PHP" expanded="false" />
+            <element signature="e#64525#64713#0#PHP" expanded="false" />
+            <element signature="n#assertJsonStringEqualsJsonString#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#65094#65286#0#PHP" expanded="false" />
+            <element signature="n#assertJsonStringNotEqualsJsonString#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#65673#65888#0#PHP" expanded="false" />
+            <element signature="n#assertJsonStringEqualsJsonFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#66427#66646#0#PHP" expanded="false" />
+            <element signature="n#assertJsonStringNotEqualsJsonFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#67226#67388#0#PHP" expanded="false" />
+            <element signature="n#assertJsonFileEqualsJsonFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#68215#68381#0#PHP" expanded="false" />
+            <element signature="n#assertJsonFileNotEqualsJsonFile#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#69287#69419#0#PHP" expanded="false" />
+            <element signature="n#logicalAnd#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#69658#69788#0#PHP" expanded="false" />
+            <element signature="n#logicalOr#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#70025#70219#0#PHP" expanded="false" />
+            <element signature="n#logicalNot#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#70383#70515#0#PHP" expanded="false" />
+            <element signature="n#logicalXor#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#70754#70900#0#PHP" expanded="false" />
+            <element signature="n#anything#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#71016#71154#0#PHP" expanded="false" />
+            <element signature="n#isTrue#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#71264#71446#0#PHP" expanded="false" />
+            <element signature="n#callback#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#71580#71720#0#PHP" expanded="false" />
+            <element signature="n#isFalse#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#71832#71970#0#PHP" expanded="false" />
+            <element signature="n#isJson#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#72080#72218#0#PHP" expanded="false" />
+            <element signature="n#isNull#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#72328#72470#0#PHP" expanded="false" />
+            <element signature="n#isFinite#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#72584#72730#0#PHP" expanded="false" />
+            <element signature="n#isInfinite#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#72848#72984#0#PHP" expanded="false" />
+            <element signature="n#isNan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#73092#73356#0#PHP" expanded="false" />
+            <element signature="n#attribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#73591#73887#0#PHP" expanded="false" />
+            <element signature="n#contains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#74147#74360#0#PHP" expanded="false" />
+            <element signature="n#containsOnly#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#74505#74723#0#PHP" expanded="false" />
+            <element signature="n#containsOnlyInstancesOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#74896#75076#0#PHP" expanded="false" />
+            <element signature="n#arrayHasKey#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#75206#75503#0#PHP" expanded="false" />
+            <element signature="n#equalTo#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#75820#76249#0#PHP" expanded="false" />
+            <element signature="n#attributeEqualTo#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#76413#76646#0#PHP" expanded="false" />
+            <element signature="e#76444#76608#0#PHP" expanded="false" />
+            <element signature="e#76659#76799#0#PHP" expanded="false" />
+            <element signature="n#isEmpty#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#76911#77057#0#PHP" expanded="false" />
+            <element signature="n#isWritable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#77175#77321#0#PHP" expanded="false" />
+            <element signature="n#isReadable#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#77439#77595#0#PHP" expanded="false" />
+            <element signature="n#directoryExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#77723#77869#0#PHP" expanded="false" />
+            <element signature="n#fileExists#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#77987#78169#0#PHP" expanded="false" />
+            <element signature="n#greaterThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#78303#78593#0#PHP" expanded="false" />
+            <element signature="n#greaterThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#78669#78824#0#PHP" expanded="false" />
+            <element signature="e#78837#79040#0#PHP" expanded="false" />
+            <element signature="n#classHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#79224#79446#0#PHP" expanded="false" />
+            <element signature="n#classHasStaticAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#79642#79847#0#PHP" expanded="false" />
+            <element signature="n#objectHasAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#80033#80215#0#PHP" expanded="false" />
+            <element signature="n#identicalTo#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#80349#80538#0#PHP" expanded="false" />
+            <element signature="n#isInstanceOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#80682#80854#0#PHP" expanded="false" />
+            <element signature="n#isType#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#80976#81152#0#PHP" expanded="false" />
+            <element signature="n#lessThan#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#81280#81567#0#PHP" expanded="false" />
+            <element signature="n#lessThanOrEqual#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#81640#81792#0#PHP" expanded="false" />
+            <element signature="e#81805#81986#0#PHP" expanded="false" />
+            <element signature="n#matchesRegularExpression#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#82135#82323#0#PHP" expanded="false" />
+            <element signature="n#matches#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#82457#82650#0#PHP" expanded="false" />
+            <element signature="n#stringStartsWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#82796#83013#0#PHP" expanded="false" />
+            <element signature="n#stringContains#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#83176#83365#0#PHP" expanded="false" />
+            <element signature="n#stringEndsWith#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#83507#83675#0#PHP" expanded="false" />
+            <element signature="n#countOf#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#83798#83951#0#PHP" expanded="false" />
+            <element signature="n#fail#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#84084#84410#0#PHP" expanded="false" />
+            <element signature="n#readAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#84498#84617#0#PHP" expanded="false" />
+            <element signature="e#84627#84807#0#PHP" expanded="false" />
+            <element signature="e#84817#85515#0#PHP" expanded="false" />
+            <element signature="e#84862#85054#0#PHP" expanded="false" />
+            <element signature="e#84921#85039#0#PHP" expanded="false" />
+            <element signature="e#85075#85179#0#PHP" expanded="false" />
+            <element signature="e#85191#85362#0#PHP" expanded="false" />
+            <element signature="e#85247#85351#0#PHP" expanded="false" />
+            <element signature="e#85363#85515#0#PHP" expanded="false" />
+            <element signature="e#85388#85504#0#PHP" expanded="false" />
+            <element signature="e#85527#85817#0#PHP" expanded="false" />
+            <element signature="n#getStaticAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#85906#86021#0#PHP" expanded="false" />
+            <element signature="e#86031#86153#0#PHP" expanded="false" />
+            <element signature="e#86163#86282#0#PHP" expanded="false" />
+            <element signature="e#86292#86472#0#PHP" expanded="false" />
+            <element signature="e#86533#86796#0#PHP" expanded="false" />
+            <element signature="e#86620#86738#0#PHP" expanded="false" />
+            <element signature="e#86857#86964#1#PHP" expanded="false" />
+            <element signature="e#86987#87277#0#PHP" expanded="false" />
+            <element signature="n#getObjectAttribute#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#87363#87475#0#PHP" expanded="false" />
+            <element signature="e#87485#87604#0#PHP" expanded="false" />
+            <element signature="e#87614#87794#0#PHP" expanded="false" />
+            <element signature="e#87804#88263#0#PHP" expanded="false" />
+            <element signature="e#87894#88263#0#PHP" expanded="false" />
+            <element signature="e#87996#88253#0#PHP" expanded="false" />
+            <element signature="e#88064#88239#0#PHP" expanded="false" />
+            <element signature="e#88189#88239#0#PHP" expanded="false" />
+            <element signature="e#88273#88598#0#PHP" expanded="false" />
+            <element signature="e#88310#88416#0#PHP" expanded="false" />
+            <element signature="e#88659#88767#1#PHP" expanded="false" />
+            <element signature="e#88790#88934#0#PHP" expanded="false" />
+            <element signature="n#markTestIncomplete#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#89080#89218#0#PHP" expanded="false" />
+            <element signature="n#markTestSkipped#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#89358#89438#0#PHP" expanded="false" />
+            <element signature="n#getCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+            <element signature="e#89523#89570#0#PHP" expanded="false" />
+            <element signature="n#resetCount#0;n#PHPUnit_Framework_Assert#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="64" column="64" lean-forward="false" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+          <folding>
+            <element signature="e#590#1620#0#PHP" expanded="false" />
+            <element signature="e#1770#1998#0#PHP" expanded="false" />
+            <element signature="e#2041#2070#0#PHP" expanded="false" />
+            <element signature="e#2120#2347#0#PHP" expanded="false" />
+            <element signature="e#2399#2428#0#PHP" expanded="false" />
+            <element signature="e#2487#2594#0#PHP" expanded="false" />
+            <element signature="e#2648#2795#0#PHP" expanded="false" />
+            <element signature="e#2844#2949#0#PHP" expanded="false" />
+            <element signature="e#2989#3018#0#PHP" expanded="false" />
+            <element signature="e#3048#3078#0#PHP" expanded="false" />
+            <element signature="e#3112#3140#0#PHP" expanded="false" />
+            <element signature="e#3183#3263#0#PHP" expanded="false" />
+            <element signature="e#3308#3391#0#PHP" expanded="false" />
+            <element signature="e#3441#3547#0#PHP" expanded="false" />
+            <element signature="e#3603#3687#0#PHP" expanded="false" />
+            <element signature="e#3729#3800#0#PHP" expanded="false" />
+            <element signature="e#3832#3861#0#PHP" expanded="false" />
+            <element signature="e#3899#3928#0#PHP" expanded="false" />
+            <element signature="e#3969#3998#0#PHP" expanded="false" />
+            <element signature="e#4035#4064#0#PHP" expanded="false" />
+            <element signature="e#4096#4125#0#PHP" expanded="false" />
+            <element signature="e#4162#4191#0#PHP" expanded="false" />
+            <element signature="e#4238#4265#0#PHP" expanded="false" />
+            <element signature="e#4292#4322#0#PHP" expanded="false" />
+            <element signature="e#4361#4388#0#PHP" expanded="false" />
+            <element signature="e#4426#4478#0#PHP" expanded="false" />
+            <element signature="e#4505#4534#0#PHP" expanded="false" />
+            <element signature="e#4565#4595#0#PHP" expanded="false" />
+            <element signature="e#4627#4657#0#PHP" expanded="false" />
+            <element signature="e#4704#4734#0#PHP" expanded="false" />
+            <element signature="e#4782#4811#0#PHP" expanded="false" />
+            <element signature="e#4854#4882#0#PHP" expanded="false" />
+            <element signature="e#4932#4959#0#PHP" expanded="false" />
+            <element signature="e#5000#5062#0#PHP" expanded="false" />
+            <element signature="e#5091#5131#0#PHP" expanded="false" />
+            <element signature="e#5159#5187#0#PHP" expanded="false" />
+            <element signature="e#5249#5277#0#PHP" expanded="false" />
+            <element signature="e#5353#5385#0#PHP" expanded="false" />
+            <element signature="e#5419#5448#0#PHP" expanded="false" />
+            <element signature="e#5480#5508#0#PHP" expanded="false" />
+            <element signature="e#5561#5715#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#5810#5876#0#PHP" expanded="false" />
+            <element signature="e#5959#6056#0#PHP" expanded="false" />
+            <element signature="n#toString#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#6158#6258#0#PHP" expanded="false" />
+            <element signature="e#6326#6438#0#PHP" expanded="false" />
+            <element signature="n#count#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="n#getGroups#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#6577#6616#0#PHP" expanded="false" />
+            <element signature="n#setGroups#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#6712#6797#0#PHP" expanded="false" />
+            <element signature="n#getAnnotations#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#6856#6966#0#PHP" expanded="false" />
+            <element signature="e#6979#7094#0#PHP" expanded="false" />
+            <element signature="n#getName#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#7158#7303#0#PHP" expanded="false" />
+            <element signature="e#7255#7303#0#PHP" expanded="false" />
+            <element signature="e#7315#7389#0#PHP" expanded="false" />
+            <element signature="n#getSize#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#7441#7542#0#PHP" expanded="false" />
+            <element signature="e#7555#7586#0#PHP" expanded="false" />
+            <element signature="n#hasSize#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#7698#7729#0#PHP" expanded="false" />
+            <element signature="n#isSmall#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#7839#7870#0#PHP" expanded="false" />
+            <element signature="n#isMedium#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#7982#8013#0#PHP" expanded="false" />
+            <element signature="n#isLarge#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#8123#8156#0#PHP" expanded="false" />
+            <element signature="n#getActualOutput#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#8209#8344#0#PHP" expanded="false" />
+            <element signature="e#8290#8344#0#PHP" expanded="false" />
+            <element signature="e#8356#8387#0#PHP" expanded="false" />
+            <element signature="n#hasOutput#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#8434#8504#0#PHP" expanded="false" />
+            <element signature="e#8514#8588#0#PHP" expanded="false" />
+            <element signature="e#8622#8653#0#PHP" expanded="false" />
+            <element signature="n#doesNotPerformAssertions#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#8766#8863#0#PHP" expanded="false" />
+            <element signature="n#expectOutputRegex#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#8932#9036#0#PHP" expanded="false" />
+            <element signature="e#9046#9172#0#PHP" expanded="false" />
+            <element signature="e#9184#9232#0#PHP" expanded="false" />
+            <element signature="n#expectOutputString#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#9303#9406#0#PHP" expanded="false" />
+            <element signature="e#9416#9546#0#PHP" expanded="false" />
+            <element signature="e#9558#9652#0#PHP" expanded="false" />
+            <element signature="n#hasPerformedExpectationsOnOutput#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#9773#9804#0#PHP" expanded="false" />
+            <element signature="n#hasExpectationOnOutput#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#9963#9996#0#PHP" expanded="false" />
+            <element signature="n#getExpectedException#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#10098#10355#0#PHP" expanded="false" />
+            <element signature="n#setExpectedException#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#10500#10606#0#PHP" expanded="false" />
+            <element signature="e#10616#10694#0#PHP" expanded="false" />
+            <element signature="e#10706#10970#0#PHP" expanded="false" />
+            <element signature="n#setExpectedExceptionRegExp#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#11079#11198#0#PHP" expanded="false" />
+            <element signature="e#11333#11411#0#PHP" expanded="false" />
+            <element signature="e#11423#11466#0#PHP" expanded="false" />
+            <element signature="n#expectException#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#11529#11644#0#PHP" expanded="false" />
+            <element signature="e#11704#11796#0#PHP" expanded="false" />
+            <element signature="n#expectExceptionCode#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#11858#11958#0#PHP" expanded="false" />
+            <element signature="e#11968#12107#0#PHP" expanded="false" />
+            <element signature="e#12166#12257#0#PHP" expanded="false" />
+            <element signature="n#expectExceptionMessage#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#12325#12425#0#PHP" expanded="false" />
+            <element signature="e#12435#12548#0#PHP" expanded="false" />
+            <element signature="e#12613#12710#0#PHP" expanded="false" />
+            <element signature="n#expectExceptionMessageRegExp#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#12790#12909#0#PHP" expanded="false" />
+            <element signature="e#12986#13022#0#PHP" expanded="false" />
+            <element signature="n#setRegisterMockObjectsFromTestArgumentsRecursively#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#13115#13224#0#PHP" expanded="false" />
+            <element signature="n#setExpectedExceptionFromAnnotation#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#13379#14201#0#PHP" expanded="false" />
+            <element signature="e#13418#13534#0#PHP" expanded="false" />
+            <element signature="e#13549#14148#0#PHP" expanded="false" />
+            <element signature="e#13671#13807#0#PHP" expanded="false" />
+            <element signature="e#13825#14134#0#PHP" expanded="false" />
+            <element signature="e#13969#14134#0#PHP" expanded="false" />
+            <element signature="e#14159#14201#0#PHP" expanded="false" />
+            <element signature="e#14213#14260#0#PHP" expanded="false" />
+            <element signature="n#setUseErrorHandler#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="n#setUseErrorHandlerFromAnnotation#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#14454#14785#0#PHP" expanded="false" />
+            <element signature="e#14491#14610#0#PHP" expanded="false" />
+            <element signature="e#14625#14732#0#PHP" expanded="false" />
+            <element signature="e#14743#14785#0#PHP" expanded="false" />
+            <element signature="n#checkRequirements#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#14850#14937#0#PHP" expanded="false" />
+            <element signature="e#14970#15076#0#PHP" expanded="false" />
+            <element signature="e#15087#15208#0#PHP" expanded="false" />
+            <element signature="e#15220#15297#0#PHP" expanded="false" />
+            <element signature="n#getStatus#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="n#markAsRisky#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#15493#15581#0#PHP" expanded="false" />
+            <element signature="n#getStatusMessage#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#15675#15765#0#PHP" expanded="false" />
+            <element signature="n#hasFailed#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#16000#16313#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#16397#16475#0#PHP" expanded="false" />
+            <element signature="e#16485#16657#0#PHP" expanded="false" />
+            <element signature="e#16667#16866#0#PHP" expanded="false" />
+            <element signature="e#16876#17075#0#PHP" expanded="false" />
+            <element signature="e#17085#22837#0#PHP" expanded="false" />
+            <element signature="e#17431#18226#0#PHP" expanded="false" />
+            <element signature="e#17815#18226#0#PHP" expanded="false" />
+            <element signature="e#17875#18138#0#PHP" expanded="false" />
+            <element signature="e#18075#18138#0#PHP" expanded="false" />
+            <element signature="e#19033#19234#0#PHP" expanded="false" />
+            <element signature="e#19170#19234#0#PHP" expanded="false" />
+            <element signature="e#19248#19409#0#PHP" expanded="false" />
+            <element signature="e#19357#19409#0#PHP" expanded="false" />
+            <element signature="e#19423#19611#0#PHP" expanded="false" />
+            <element signature="e#19547#19611#0#PHP" expanded="false" />
+            <element signature="e#20704#22612#0#PHP" expanded="false" />
+            <element signature="e#20739#22598#1#PHP" expanded="false" />
+            <element signature="e#22788#22837#0#PHP" expanded="false" />
+            <element signature="e#22847#22968#0#PHP" expanded="false" />
+            <element signature="e#23036#23083#0#PHP" expanded="false" />
+            <element signature="n#runBare#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#23389#25499#0#PHP" expanded="false" />
+            <element signature="e#23529#23691#0#PHP" expanded="false" />
+            <element signature="e#23571#23677#0#PHP" expanded="false" />
+            <element signature="e#23827#23920#0#PHP" expanded="false" />
+            <element signature="e#24110#24361#0#PHP" expanded="false" />
+            <element signature="e#24214#24328#1#PHP" expanded="false" />
+            <element signature="e#24447#24640#0#PHP" expanded="false" />
+            <element signature="e#24641#24828#0#PHP" expanded="false" />
+            <element signature="e#24829#25012#0#PHP" expanded="false" />
+            <element signature="e#25013#25209#0#PHP" expanded="false" />
+            <element signature="e#25210#25387#0#PHP" expanded="false" />
+            <element signature="e#25388#25443#0#PHP" expanded="false" />
+            <element signature="e#25444#25499#0#PHP" expanded="false" />
+            <element signature="e#25509#25670#0#PHP" expanded="false" />
+            <element signature="e#25932#26520#0#PHP" expanded="false" />
+            <element signature="e#25950#26302#0#PHP" expanded="false" />
+            <element signature="e#25993#26093#0#PHP" expanded="false" />
+            <element signature="e#26111#26288#0#PHP" expanded="false" />
+            <element signature="e#26157#26270#0#PHP" expanded="false" />
+            <element signature="e#26313#26416#0#PHP" expanded="false" />
+            <element signature="e#26349#26406#0#PHP" expanded="false" />
+            <element signature="e#26417#26520#0#PHP" expanded="false" />
+            <element signature="e#26453#26510#0#PHP" expanded="false" />
+            <element signature="e#26530#26714#0#PHP" expanded="false" />
+            <element signature="e#26588#26714#0#PHP" expanded="false" />
+            <element signature="e#26647#26704#0#PHP" expanded="false" />
+            <element signature="e#26751#26849#0#PHP" expanded="false" />
+            <element signature="e#26931#27038#0#PHP" expanded="false" />
+            <element signature="e#27119#27221#0#PHP" expanded="false" />
+            <element signature="e#27271#27770#0#PHP" expanded="false" />
+            <element signature="e#27301#27760#0#PHP" expanded="false" />
+            <element signature="e#27323#27618#0#PHP" expanded="false" />
+            <element signature="e#27468#27618#0#PHP" expanded="false" />
+            <element signature="e#27633#27696#0#PHP" expanded="false" />
+            <element signature="e#27697#27760#0#PHP" expanded="false" />
+            <element signature="e#27825#28046#0#PHP" expanded="false" />
+            <element signature="e#27854#27991#0#PHP" expanded="false" />
+            <element signature="e#28058#28254#0#PHP" expanded="false" />
+            <element signature="n#runTest#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#28302#28475#0#PHP" expanded="false" />
+            <element signature="e#28485#28690#0#PHP" expanded="false" />
+            <element signature="e#28605#28690#0#PHP" expanded="false" />
+            <element signature="e#28846#29043#0#PHP" expanded="false" />
+            <element signature="e#28932#28987#0#PHP" expanded="false" />
+            <element signature="e#28988#29043#0#PHP" expanded="false" />
+            <element signature="e#29053#31276#0#PHP" expanded="false" />
+            <element signature="e#29120#29784#0#PHP" expanded="false" />
+            <element signature="e#29275#29386#0#PHP" expanded="false" />
+            <element signature="e#29481#29770#0#PHP" expanded="false" />
+            <element signature="e#29798#31266#0#PHP" expanded="false" />
+            <element signature="e#29837#30032#0#PHP" expanded="false" />
+            <element signature="e#30051#30432#0#PHP" expanded="false" />
+            <element signature="e#30184#30413#0#PHP" expanded="false" />
+            <element signature="e#30450#30855#0#PHP" expanded="false" />
+            <element signature="e#30595#30836#0#PHP" expanded="false" />
+            <element signature="e#30873#31180#0#PHP" expanded="false" />
+            <element signature="e#30938#31161#0#PHP" expanded="false" />
+            <element signature="e#31220#31266#0#PHP" expanded="false" />
+            <element signature="e#31286#31527#0#PHP" expanded="false" />
+            <element signature="e#31339#31516#0#PHP" expanded="false" />
+            <element signature="e#31568#31625#0#PHP" expanded="false" />
+            <element signature="n#verifyMockObjects#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#31683#31973#0#PHP" expanded="false" />
+            <element signature="e#31741#31838#0#PHP" expanded="false" />
+            <element signature="e#31852#31962#0#PHP" expanded="false" />
+            <element signature="e#31983#32729#0#PHP" expanded="false" />
+            <element signature="e#32026#32265#0#PHP" expanded="false" />
+            <element signature="e#32098#32181#0#PHP" expanded="false" />
+            <element signature="e#32182#32265#0#PHP" expanded="false" />
+            <element signature="e#32279#32649#0#PHP" expanded="false" />
+            <element signature="e#32358#32635#0#PHP" expanded="false" />
+            <element signature="e#32450#32617#0#PHP" expanded="false" />
+            <element signature="e#32663#32719#0#PHP" expanded="false" />
+            <element signature="e#32741#32817#0#PHP" expanded="false" />
+            <element signature="n#setName#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#32899#32995#0#PHP" expanded="false" />
+            <element signature="n#setDependencies#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#33115#33203#0#PHP" expanded="false" />
+            <element signature="n#hasDependencies#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#33306#33373#0#PHP" expanded="false" />
+            <element signature="n#setDependencyInput#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#33505#33570#0#PHP" expanded="false" />
+            <element signature="n#setBeStrictAboutChangesToGlobalState#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#33768#33873#0#PHP" expanded="false" />
+            <element signature="n#setBackupGlobals#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#33941#34065#0#PHP" expanded="false" />
+            <element signature="e#34077#34191#0#PHP" expanded="false" />
+            <element signature="n#setBackupStaticAttributes#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#34277#34449#0#PHP" expanded="false" />
+            <element signature="e#34461#34567#0#PHP" expanded="false" />
+            <element signature="n#setRunTestInSeparateProcess#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#34657#34953#0#PHP" expanded="false" />
+            <element signature="e#34711#34849#0#PHP" expanded="false" />
+            <element signature="e#34860#34953#0#PHP" expanded="false" />
+            <element signature="e#34965#35066#0#PHP" expanded="false" />
+            <element signature="n#setPreserveGlobalState#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#35146#35349#0#PHP" expanded="false" />
+            <element signature="e#35256#35349#0#PHP" expanded="false" />
+            <element signature="e#35361#35454#0#PHP" expanded="false" />
+            <element signature="n#setInIsolation#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#35518#35697#0#PHP" expanded="false" />
+            <element signature="e#35604#35697#0#PHP" expanded="false" />
+            <element signature="e#35709#35740#0#PHP" expanded="false" />
+            <element signature="n#isInIsolation#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#35829#35861#0#PHP" expanded="false" />
+            <element signature="n#getResult#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#35945#35984#0#PHP" expanded="false" />
+            <element signature="n#setResult#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#36078#36172#0#PHP" expanded="false" />
+            <element signature="n#setOutputCallback#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#36236#36354#0#PHP" expanded="false" />
+            <element signature="e#36410#36465#0#PHP" expanded="false" />
+            <element signature="n#getTestResultObject#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#36555#36617#0#PHP" expanded="false" />
+            <element signature="n#setTestResultObject#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#36746#36823#0#PHP" expanded="false" />
+            <element signature="n#registerMockObject#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#36977#37279#0#PHP" expanded="false" />
+            <element signature="n#iniSet#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#37345#37458#0#PHP" expanded="false" />
+            <element signature="e#37523#37873#0#PHP" expanded="false" />
+            <element signature="e#37622#37873#0#PHP" expanded="false" />
+            <element signature="e#37696#37848#1#PHP" expanded="false" />
+            <element signature="e#37885#38163#0#PHP" expanded="false" />
+            <element signature="n#setLocale#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#38247#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38502#0#PHP" expanded="false" />
+            <element signature="e#38513#38593#0#PHP" expanded="false" />
+            <element signature="e#38603#38704#0#PHP" expanded="false" />
+            <element signature="e#38714#38823#0#PHP" expanded="false" />
+            <element signature="e#38955#39246#0#PHP" expanded="false" />
+            <element signature="e#39258#39452#0#PHP" expanded="false" />
+            <element signature="n#getMockBuilder#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#39597#39821#0#PHP" expanded="false" />
+            <element signature="n#createMock#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#40178#40449#0#PHP" expanded="false" />
+            <element signature="n#createConfiguredMock#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#40603#40715#0#PHP" expanded="false" />
+            <element signature="e#40747#41009#0#PHP" expanded="false" />
+            <element signature="n#createPartialMock#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#41108#41412#0#PHP" expanded="false" />
+            <element signature="e#41457#42940#0#PHP" expanded="false" />
+            <element signature="n#getMock#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#43423#43765#0#PHP" expanded="false" />
+            <element signature="e#43856#44196#0#PHP" expanded="false" />
+            <element signature="n#getMockWithoutInvokingTheOriginalConstructor#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#44618#45086#0#PHP" expanded="false" />
+            <element signature="n#getMockClass#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#45332#45614#0#PHP" expanded="false" />
+            <element signature="e#45661#46326#0#PHP" expanded="false" />
+            <element signature="n#getMockForAbstractClass#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#46594#46898#0#PHP" expanded="false" />
+            <element signature="e#46989#47410#0#PHP" expanded="false" />
+            <element signature="n#getMockFromWsdl#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#47596#47740#0#PHP" expanded="false" />
+            <element signature="e#47750#48053#0#PHP" expanded="false" />
+            <element signature="e#47825#48028#0#PHP" expanded="false" />
+            <element signature="e#48077#48313#0#PHP" expanded="false" />
+            <element signature="e#48404#49021#0#PHP" expanded="false" />
+            <element signature="n#getMockForTrait#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#49273#49561#0#PHP" expanded="false" />
+            <element signature="e#49652#50058#0#PHP" expanded="false" />
+            <element signature="n#getObjectForTrait#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#50285#50548#0#PHP" expanded="false" />
+            <element signature="e#50561#50710#0#PHP" expanded="false" />
+            <element signature="n#prophesize#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#50855#50944#0#PHP" expanded="false" />
+            <element signature="n#addToAssertionCount#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#51050#51151#0#PHP" expanded="false" />
+            <element signature="n#getNumAssertions#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#51245#51424#0#PHP" expanded="false" />
+            <element signature="n#any#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#51548#51704#0#PHP" expanded="false" />
+            <element signature="n#never#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#51830#52057#0#PHP" expanded="false" />
+            <element signature="n#atLeast#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#52253#52423#0#PHP" expanded="false" />
+            <element signature="n#atLeastOnce#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#52558#52721#0#PHP" expanded="false" />
+            <element signature="n#once#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#52846#53056#0#PHP" expanded="false" />
+            <element signature="n#exactly#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#53195#53419#0#PHP" expanded="false" />
+            <element signature="n#atMost#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#53611#53821#0#PHP" expanded="false" />
+            <element signature="n#at#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#53957#54058#0#PHP" expanded="false" />
+            <element signature="n#returnValue#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#54192#54304#0#PHP" expanded="false" />
+            <element signature="n#returnValueMap#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#54461#54576#0#PHP" expanded="false" />
+            <element signature="n#returnArgument#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#54759#54871#0#PHP" expanded="false" />
+            <element signature="n#returnCallback#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#55022#55204#0#PHP" expanded="false" />
+            <element signature="n#returnSelf#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#55329#55528#0#PHP" expanded="false" />
+            <element signature="n#throwException#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#55676#55792#0#PHP" expanded="false" />
+            <element signature="n#onConsecutiveCalls#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#55970#56001#0#PHP" expanded="false" />
+            <element signature="n#usesDataProvider#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#56094#56127#0#PHP" expanded="false" />
+            <element signature="n#dataDescription#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#56249#56380#0#PHP" expanded="false" />
+            <element signature="n#getDataSetAsString#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#56481#56927#0#PHP" expanded="false" />
+            <element signature="e#56520#56736#0#PHP" expanded="false" />
+            <element signature="e#56640#56736#0#PHP" expanded="false" />
+            <element signature="e#56789#56917#0#PHP" expanded="false" />
+            <element signature="e#56964#57043#0#PHP" expanded="false" />
+            <element signature="n#getProvidedData#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#57130#57236#0#PHP" expanded="false" />
+            <element signature="n#createResult#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="n#handleDependencies#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#57395#60399#0#PHP" expanded="false" />
+            <element signature="e#57654#57898#0#PHP" expanded="false" />
+            <element signature="e#57773#57884#0#PHP" expanded="false" />
+            <element signature="e#57978#60389#0#PHP" expanded="false" />
+            <element signature="e#58074#58428#0#PHP" expanded="false" />
+            <element signature="e#58248#58428#0#PHP" expanded="false" />
+            <element signature="e#58446#58573#0#PHP" expanded="false" />
+            <element signature="e#58591#59187#0#PHP" expanded="false" />
+            <element signature="e#58704#59079#0#PHP" expanded="false" />
+            <element signature="e#58852#59004#1#PHP" expanded="false" />
+            <element signature="e#59205#60375#0#PHP" expanded="false" />
+            <element signature="e#59260#59865#0#PHP" expanded="false" />
+            <element signature="e#59499#59803#0#PHP" expanded="false" />
+            <element signature="e#59887#60268#0#PHP" expanded="false" />
+            <element signature="e#60146#60268#0#PHP" expanded="false" />
+            <element signature="e#60287#60375#0#PHP" expanded="false" />
+            <element signature="e#60433#60522#0#PHP" expanded="false" />
+            <element signature="n#setUpBeforeClass#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#60586#60721#0#PHP" expanded="false" />
+            <element signature="n#setUp#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#60770#60954#0#PHP" expanded="false" />
+            <element signature="n#assertPreConditions#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#61017#61203#0#PHP" expanded="false" />
+            <element signature="n#assertPostConditions#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#61267#61405#0#PHP" expanded="false" />
+            <element signature="n#tearDown#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#61457#61544#0#PHP" expanded="false" />
+            <element signature="n#tearDownAfterClass#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#61610#61785#0#PHP" expanded="false" />
+            <element signature="n#onNotSuccessfulTest#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#61920#61982#0#PHP" expanded="false" />
+            <element signature="e#61998#62104#0#PHP" expanded="false" />
+            <element signature="e#62117#62244#0#PHP" expanded="false" />
+            <element signature="n#prepareTemplate#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#62326#62469#0#PHP" expanded="false" />
+            <element signature="n#getMockObjectGenerator#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#62532#62669#0#PHP" expanded="false" />
+            <element signature="n#startOutputBuffering#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="n#stopOutputBuffering#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#62956#63291#0#PHP" expanded="false" />
+            <element signature="e#63021#63122#0#PHP" expanded="false" />
+            <element signature="e#63339#63571#0#PHP" expanded="false" />
+            <element signature="e#63425#63571#0#PHP" expanded="false" />
+            <element signature="e#63460#63560#0#PHP" expanded="false" />
+            <element signature="n#snapshotGlobalState#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#63853#64022#0#PHP" expanded="false" />
+            <element signature="n#restoreGlobalState#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#64163#64236#0#PHP" expanded="false" />
+            <element signature="e#64336#64708#0#PHP" expanded="false" />
+            <element signature="e#64396#64698#0#PHP" expanded="false" />
+            <element signature="e#64418#64577#0#PHP" expanded="false" />
+            <element signature="e#64593#64698#0#PHP" expanded="false" />
+            <element signature="e#64753#64848#0#PHP" expanded="false" />
+            <element signature="e#64858#64969#0#PHP" expanded="false" />
+            <element signature="e#65012#65064#0#PHP" expanded="false" />
+            <element signature="e#65076#65152#0#PHP" expanded="false" />
+            <element signature="n#createGlobalStateSnapshot#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#65267#65397#0#PHP" expanded="false" />
+            <element signature="e#65407#66308#0#PHP" expanded="false" />
+            <element signature="e#66065#66298#0#PHP" expanded="false" />
+            <element signature="e#66157#66284#0#PHP" expanded="false" />
+            <element signature="e#66595#66722#0#PHP" expanded="false" />
+            <element signature="n#compareGlobalStateSnapshots#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#66911#67459#0#PHP" expanded="false" />
+            <element signature="e#66945#67178#0#PHP" expanded="false" />
+            <element signature="e#67193#67448#0#PHP" expanded="false" />
+            <element signature="e#67469#67766#0#PHP" expanded="false" />
+            <element signature="e#67518#67755#0#PHP" expanded="false" />
+            <element signature="e#67778#67930#0#PHP" expanded="false" />
+            <element signature="n#compareGlobalStateSnapshotPart#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#68035#68383#0#PHP" expanded="false" />
+            <element signature="e#68164#68278#0#PHP" expanded="false" />
+            <element signature="e#68395#68438#0#PHP" expanded="false" />
+            <element signature="n#getProphet#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#68487#68569#0#PHP" expanded="false" />
+            <element signature="e#68613#68711#0#PHP" expanded="false" />
+            <element signature="n#shouldInvocationMockerBeReset#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#68863#69023#0#PHP" expanded="false" />
+            <element signature="e#68945#69013#0#PHP" expanded="false" />
+            <element signature="e#69033#69136#0#PHP" expanded="false" />
+            <element signature="e#69146#69301#0#PHP" expanded="false" />
+            <element signature="e#69223#69291#0#PHP" expanded="false" />
+            <element signature="e#69335#69381#0#PHP" expanded="false" />
+            <element signature="n#registerMockObjectsFromTestArguments#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#69476#70367#0#PHP" expanded="false" />
+            <element signature="e#69593#69824#0#PHP" expanded="false" />
+            <element signature="e#69671#69810#0#PHP" expanded="false" />
+            <element signature="e#69835#70367#0#PHP" expanded="false" />
+            <element signature="e#69854#70357#0#PHP" expanded="false" />
+            <element signature="e#69914#70343#0#PHP" expanded="false" />
+            <element signature="e#70006#70129#0#PHP" expanded="false" />
+            <element signature="e#70211#70343#0#PHP" expanded="false" />
+            <element signature="n#setDoesNotPerformAssertionsFromAnnotation#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#70503#70629#0#PHP" expanded="false" />
+            <element signature="e#70641#70747#0#PHP" expanded="false" />
+            <element signature="n#isCloneable#0;n#PHPUnit_Framework_TestCase#0;n#!!top" expanded="false" />
+            <element signature="e#70909#70978#0#PHP" expanded="false" />
+            <element signature="e#70988#71122#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app/Http/Controllers/GetChordTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#120#0#PHP" expanded="false" />
+            <element signature="e#181#479#0#PHP" expanded="false" />
+            <element signature="e#247#469#0#PHP" expanded="false" />
+            <element signature="e#181#533#0#PHP" expanded="false" />
+            <element signature="e#619#1128#1#PHP" expanded="false" />
+            <element signature="e#650#1114#1#PHP" expanded="false" />
+            <element signature="e#688#854#1#PHP" expanded="false" />
+            <element signature="e#888#1096#1#PHP" expanded="false" />
+            <element signature="e#1142#1651#1#PHP" expanded="false" />
+            <element signature="e#1173#1637#1#PHP" expanded="false" />
+            <element signature="e#1211#1377#1#PHP" expanded="false" />
+            <element signature="e#1411#1619#1#PHP" expanded="false" />
+            <element signature="e#1665#2189#1#PHP" expanded="false" />
+            <element signature="e#1701#2175#1#PHP" expanded="false" />
+            <element signature="e#1739#1907#1#PHP" expanded="false" />
+            <element signature="e#1941#2157#1#PHP" expanded="false" />
+            <element signature="e#2203#2730#1#PHP" expanded="false" />
+            <element signature="e#2240#2716#1#PHP" expanded="false" />
+            <element signature="e#2278#2447#1#PHP" expanded="false" />
+            <element signature="e#2481#2698#1#PHP" expanded="false" />
+            <element signature="e#2744#3266#1#PHP" expanded="false" />
+            <element signature="e#2780#3252#1#PHP" expanded="false" />
+            <element signature="e#2818#2986#1#PHP" expanded="false" />
+            <element signature="e#3020#3234#1#PHP" expanded="false" />
+            <element signature="e#3280#3803#1#PHP" expanded="false" />
+            <element signature="e#3316#3789#1#PHP" expanded="false" />
+            <element signature="e#3354#3522#1#PHP" expanded="false" />
+            <element signature="e#3556#3771#1#PHP" expanded="false" />
+            <element signature="e#3817#4341#1#PHP" expanded="false" />
+            <element signature="e#3853#4327#1#PHP" expanded="false" />
+            <element signature="e#3891#4062#1#PHP" expanded="false" />
+            <element signature="e#4096#4309#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/lumen/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/lumen-framework/src/Testing/Concerns/MakesHttpRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="174" column="4" lean-forward="true" selection-start-line="174" selection-start-column="4" selection-end-line="189" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/lumen-framework/src/Testing/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#41#53#0#PHP" expanded="true" />
+            <element signature="e#292#382#0#PHP" expanded="false" />
+            <element signature="e#408#503#0#PHP" expanded="false" />
+            <element signature="e#554#667#0#PHP" expanded="false" />
+            <element signature="e#730#898#0#PHP" expanded="false" />
+            <element signature="e#954#1033#0#PHP" expanded="false" />
+            <element signature="e#1038#1217#0#PHP" expanded="false" />
+            <element signature="e#1223#1296#0#PHP" expanded="false" />
+            <element signature="e#1301#1446#0#PHP" expanded="false" />
+            <element signature="e#1339#1409#0#PHP" expanded="false" />
+            <element signature="e#1452#1529#0#PHP" expanded="false" />
+            <element signature="e#1534#2095#0#PHP" expanded="false" />
+            <element signature="e#1650#1750#0#PHP" expanded="false" />
+            <element signature="e#1760#1865#0#PHP" expanded="false" />
+            <element signature="e#1875#1981#0#PHP" expanded="false" />
+            <element signature="e#1991#2089#0#PHP" expanded="false" />
+            <element signature="e#2101#2201#0#PHP" expanded="false" />
+            <element signature="e#2206#2562#0#PHP" expanded="false" />
+            <element signature="e#2247#2317#0#PHP" expanded="false" />
+            <element signature="e#2327#2556#0#PHP" expanded="false" />
+            <element signature="e#2357#2481#0#PHP" expanded="false" />
+            <element signature="e#2568#2773#0#PHP" expanded="false" />
+            <element signature="e#2778#3174#0#PHP" expanded="false" />
+            <element signature="e#2975#3144#0#PHP" expanded="false" />
+            <element signature="e#3011#3143#0#PHP" expanded="false" />
+            <element signature="e#3180#3393#0#PHP" expanded="false" />
+            <element signature="e#3398#3561#0#PHP" expanded="false" />
+            <element signature="e#3567#3780#0#PHP" expanded="false" />
+            <element signature="e#3785#4185#0#PHP" expanded="false" />
+            <element signature="e#3985#4155#0#PHP" expanded="false" />
+            <element signature="e#4016#4154#0#PHP" expanded="false" />
+            <element signature="e#4191#4436#0#PHP" expanded="false" />
+            <element signature="e#4441#5413#0#PHP" expanded="false" />
+            <element signature="e#4633#5066#0#PHP" expanded="false" />
+            <element signature="e#4678#5065#2#PHP" expanded="false" />
+            <element signature="e#4726#5055#0#PHP" expanded="false" />
+            <element signature="e#4780#5041#0#PHP" expanded="false" />
+            <element signature="e#5077#5335#0#PHP" expanded="false" />
+            <element signature="e#5111#5334#2#PHP" expanded="false" />
+            <element signature="e#5152#5324#0#PHP" expanded="false" />
+            <element signature="e#5419#5519#0#PHP" expanded="false" />
+            <element signature="e#5524#5753#0#PHP" expanded="false" />
+            <element signature="e#5759#6003#0#PHP" expanded="false" />
+            <element signature="e#6008#6563#0#PHP" expanded="false" />
+            <element signature="e#6291#6435#0#PHP" expanded="false" />
+            <element signature="e#6329#6424#0#PHP" expanded="false" />
+            <element signature="e#6445#6533#0#PHP" expanded="false" />
+            <element signature="e#6569#6679#0#PHP" expanded="false" />
+            <element signature="e#6684#7166#0#PHP" expanded="false" />
+            <element signature="e#6902#7037#0#PHP" expanded="false" />
+            <element signature="e#6951#7036#2#PHP" expanded="false" />
+            <element signature="e#7048#7136#0#PHP" expanded="false" />
+            <element signature="e#7172#7373#0#PHP" expanded="false" />
+            <element signature="e#7378#7511#0#PHP" expanded="false" />
+            <element signature="e#7517#7717#0#PHP" expanded="false" />
+            <element signature="e#7722#7851#0#PHP" expanded="false" />
+            <element signature="e#7857#8004#0#PHP" expanded="false" />
+            <element signature="e#8009#8181#0#PHP" expanded="false" />
+            <element signature="e#8187#8334#0#PHP" expanded="false" />
+            <element signature="e#8339#8482#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app/Http/Controllers/GetChordGuitarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="e#57#128#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/MyTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
