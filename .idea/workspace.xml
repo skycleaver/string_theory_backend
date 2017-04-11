@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf96b16b-c5ad-4fb4-ac3a-8d64142aa410" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" afterPath="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicChordsFormatter.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicChordsFormatter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php" />
         <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -454,7 +465,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46687000" />
+    <option name="totallyTimeSpent" value="47281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -501,30 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#624#667#0#PHP" expanded="false" />
-            <element signature="e#706#750#0#PHP" expanded="false" />
-            <element signature="e#790#834#0#PHP" expanded="false" />
-            <element signature="e#875#1255#0#PHP" expanded="false" />
-            <element signature="e#1261#2115#0#PHP" expanded="false" />
-            <element signature="e#1582#1752#0#PHP" expanded="false" />
-            <element signature="e#1770#2065#0#PHP" expanded="false" />
-            <element signature="e#1800#2055#1#PHP" expanded="false" />
-            <element signature="e#1770#2108#0#PHP" expanded="false" />
-            <element signature="e#2121#2989#0#PHP" expanded="false" />
-            <element signature="e#2448#2618#0#PHP" expanded="false" />
-            <element signature="e#2636#2939#0#PHP" expanded="false" />
-            <element signature="e#2666#2929#1#PHP" expanded="false" />
-            <element signature="e#2636#2982#0#PHP" expanded="false" />
-            <element signature="e#3457#3625#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -903,6 +890,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
