@@ -16,7 +16,7 @@ class BasicChordsFormatter
         $this->basicChordFormatter = new BasicChordFormatter();
     }
 
-    public function get(array $chords): string
+    public function get(array $chords): array
     {
         $chordsFormatted = [];
         foreach ($chords as $chord) {
@@ -28,6 +28,6 @@ class BasicChordsFormatter
             ];
             $chordsFormatted[] = $chordFormatted;
         }
-        return json_encode($chordsFormatted);
+        return $chordsFormatted;
     }
 }

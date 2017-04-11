@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf96b16b-c5ad-4fb4-ac3a-8d64142aa410" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php" afterPath="$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" afterPath="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="ChordController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="102" column="41" lean-forward="false" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+            <state relative-caret-position="650">
+              <caret line="107" column="59" lean-forward="true" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
               <folding>
                 <element signature="e#624#667#0#PHP" expanded="false" />
                 <element signature="e#706#750#0#PHP" expanded="false" />
@@ -45,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicChordsFormatter.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetChordsByScale.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="802">
               <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicChordsFormatter.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -329,6 +327,9 @@
     <property name="SearchEverywhereHistoryKey" value="Laravel\Lumen\Application&#9;null&#9;null&#10;web&#9;FILE&#9;file:///var/www/html/st_back/routes/web.php&#10;chordnote&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordNotes/ChordNotes.php&#10;chordtypevalu&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordTypes/ChordTypeValues.php&#10;chordse&#9;FILE&#9;file:///var/www/html/string_theory2/Domains/Chords/ChordSevenths/ChordSeventh.php&#10;autoload_nam&#9;FILE&#9;file:///var/www/html/string_theory2/vendor/composer/autoload_namespaces.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Formatters" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/Domains/Scales/ScaleTypes" />
@@ -453,7 +454,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45492000" />
+    <option name="totallyTimeSpent" value="46687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -876,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="102" column="41" lean-forward="false" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+        <state relative-caret-position="650">
+          <caret line="107" column="59" lean-forward="true" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
           <folding>
             <element signature="e#624#667#0#PHP" expanded="false" />
             <element signature="e#706#750#0#PHP" expanded="false" />
@@ -900,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
