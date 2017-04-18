@@ -24,7 +24,13 @@ $app->get('chord_guitar', [
 $app->get('chords_by_scale', [
     'as' => 'chords_by_scale', 'uses' => 'ChordController@getChordsByScale'
 ]);
+$app->get('chord_types', [
+    'as' => 'chord_types', 'uses' => 'ChordController@getChordTypes'
+]);
 // SCALE CONTROLLER
 $app->get('scale', [
     'as' => 'scale', 'uses' => 'ScaleController@getScale'
+]);
+$app->get('scale_names', [
+    'as' => 'scale_names', 'uses' => 'ScaleController@getScaleNames'
 ]);

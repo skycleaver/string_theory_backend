@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Formatters\BasicScaleFormatter;
+use Formatters\BasicScaleNamesFormatter;
 use Illuminate\Http\Request;
 use Intervals\GetInterval;
 use Notes\Note;
@@ -19,9 +20,13 @@ class ScaleController
      */
     private $basicScaleFormatter;
 
-    public function __construct(BasicScaleFormatter $basicScaleFormatter)
+    public function __construct(
+        BasicScaleFormatter $basicScaleFormatter,
+        BasicScaleNamesFormatter $basicScaleNamesFormatter
+    )
     {
         $this->basicScaleFormatter = $basicScaleFormatter;
+        $this->basicScaleNamesFormatter = $basicScaleNamesFormatter;
     }
 
     public function getScale(Request $request)
@@ -35,6 +40,19 @@ class ScaleController
         return response()->json(
             [
                 "scale" => $this->basicScaleFormatter->get($scale)
+            ]
+        )->withCallback($request->input('callback'));
+    }
+
+    public function getScaleNames(Request $request)
+    {
+        $scaleTypeValues = new ScaleTypeValues();
+
+        return response()->json(
+            [
+                "scale_names" => $this->basicScaleNamesFormatter->get(
+                    $scaleTypeValues->getValuesAsArray()
+                )
             ]
         )->withCallback($request->input('callback'));
     }

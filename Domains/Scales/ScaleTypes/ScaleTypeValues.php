@@ -23,7 +23,7 @@ class ScaleTypeValues
 //        return $this->getValuesAsArray()[$key];
 //    }
 
-    private function getValuesAsArray(): array
+    public function getValuesAsArray(): array
     {
         $reflectionClass = new ReflectionClass(__CLASS__);
         return $reflectionClass->getConstants();

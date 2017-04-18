@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bf96b16b-c5ad-4fb4-ac3a-8d64142aa410" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php" afterPath="$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php" afterPath="$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ScaleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ScaleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,47 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="107" column="59" lean-forward="true" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
-              <folding>
-                <element signature="e#624#667#0#PHP" expanded="false" />
-                <element signature="e#706#750#0#PHP" expanded="false" />
-                <element signature="e#790#834#0#PHP" expanded="false" />
-                <element signature="e#875#1255#0#PHP" expanded="false" />
-                <element signature="e#1261#2115#0#PHP" expanded="false" />
-                <element signature="e#1582#1752#0#PHP" expanded="false" />
-                <element signature="e#1770#2065#0#PHP" expanded="false" />
-                <element signature="e#1800#2055#1#PHP" expanded="false" />
-                <element signature="e#1770#2108#0#PHP" expanded="false" />
-                <element signature="e#2121#2989#0#PHP" expanded="false" />
-                <element signature="e#2448#2618#0#PHP" expanded="false" />
-                <element signature="e#2636#2939#0#PHP" expanded="false" />
-                <element signature="e#2666#2929#1#PHP" expanded="false" />
-                <element signature="e#2636#2982#0#PHP" expanded="false" />
-                <element signature="e#3457#3625#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetChordsByScale.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="802">
-              <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicChordsFormatter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="253">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -66,9 +35,34 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChordController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="33" />
+              <folding>
+                <element signature="e#665#708#0#PHP" expanded="false" />
+                <element signature="e#747#791#0#PHP" expanded="false" />
+                <element signature="e#831#875#0#PHP" expanded="false" />
+                <element signature="e#1523#2377#0#PHP" expanded="false" />
+                <element signature="e#1844#2014#0#PHP" expanded="false" />
+                <element signature="e#2032#2327#0#PHP" expanded="false" />
+                <element signature="e#2062#2317#1#PHP" expanded="false" />
+                <element signature="e#2032#2370#0#PHP" expanded="false" />
+                <element signature="e#2383#3251#0#PHP" expanded="false" />
+                <element signature="e#2710#2880#0#PHP" expanded="false" />
+                <element signature="e#2898#3201#0#PHP" expanded="false" />
+                <element signature="e#2928#3191#1#PHP" expanded="false" />
+                <element signature="e#2898#3244#0#PHP" expanded="false" />
+                <element signature="e#3719#3887#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,15 +94,11 @@
         <option value="$PROJECT_DIR$/app/Http/Formatters/GuitarChordFormatter.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Domains/Scales/ScaleTypeValues.php" />
-        <option value="$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php" />
         <option value="$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleType.php" />
         <option value="$PROJECT_DIR$/app/Http/Formatters/BasicScaleFormatter.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ScaleController.php" />
         <option value="$PROJECT_DIR$/Domains/Scales/GetScale.php" />
         <option value="$PROJECT_DIR$/Domains/Scales/Scale.php" />
-        <option value="$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php" />
         <option value="$PROJECT_DIR$/Domains/Intervals/GetInterval.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/Domains/Scales/ScaleNotes/ScaleNotes.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/GetChord.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventh.php" />
@@ -120,10 +110,16 @@
         <option value="$PROJECT_DIR$/vendor/laravel/lumen/tests/MyTestCase.php" />
         <option value="$PROJECT_DIR$/tests/app/Http/Controllers/GetChordGuitarTest.php" />
         <option value="$PROJECT_DIR$/tests/MyTestCase.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
         <option value="$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php" />
         <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ScaleController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Formatters/BasicScaleNamesFormatter.php" />
+        <option value="$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php" />
+        <option value="$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php" />
+        <option value="$PROJECT_DIR$/app/Http/Formatters/BasicChordTypesFormatter.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ChordController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -237,7 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +243,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domains" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domains" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chords" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st_back" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domains" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chords" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChordTypes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,14 +392,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="SearchEverywhereHistoryKey" value="Laravel\Lumen\Application&#9;null&#9;null&#10;web&#9;FILE&#9;file:///var/www/html/st_back/routes/web.php&#10;chordnote&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordNotes/ChordNotes.php&#10;chordtypevalu&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordTypes/ChordTypeValues.php&#10;chordse&#9;FILE&#9;file:///var/www/html/string_theory2/Domains/Chords/ChordSevenths/ChordSeventh.php&#10;autoload_nam&#9;FILE&#9;file:///var/www/html/string_theory2/vendor/composer/autoload_namespaces.php" />
+    <property name="SearchEverywhereHistoryKey" value="ScaleController&#9;FILE&#9;file:///var/www/html/st_back/app/Http/Controllers/ScaleController.php&#10;Laravel\Lumen\Application&#9;null&#9;null&#10;web&#9;FILE&#9;file:///var/www/html/st_back/routes/web.php&#10;chordnote&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordNotes/ChordNotes.php&#10;chordtypevalu&#9;FILE&#9;file:///var/www/html/st_back/Domains/Chords/ChordTypes/ChordTypeValues.php&#10;chordse&#9;FILE&#9;file:///var/www/html/string_theory2/Domains/Chords/ChordSevenths/ChordSeventh.php&#10;autoload_nam&#9;FILE&#9;file:///var/www/html/string_theory2/vendor/composer/autoload_namespaces.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -461,11 +525,14 @@
       <workItem from="1491815156738" duration="3037000" />
       <workItem from="1491903023508" duration="3998000" />
       <workItem from="1491913728708" duration="239000" />
+      <workItem from="1492165652915" duration="25000" />
+      <workItem from="1492165713680" duration="1168000" />
+      <workItem from="1492506714590" duration="2298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47281000" />
+    <option name="totallyTimeSpent" value="50791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -482,23 +549,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,37 +569,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#624#667#0#PHP" expanded="false" />
-            <element signature="e#706#750#0#PHP" expanded="false" />
-            <element signature="e#790#834#0#PHP" expanded="false" />
-            <element signature="e#875#1255#0#PHP" expanded="false" />
-            <element signature="e#1261#2115#0#PHP" expanded="false" />
-            <element signature="e#1582#1752#0#PHP" expanded="false" />
-            <element signature="e#1770#2065#0#PHP" expanded="false" />
-            <element signature="e#1800#2055#1#PHP" expanded="false" />
-            <element signature="e#1770#2108#0#PHP" expanded="false" />
-            <element signature="e#2121#2989#0#PHP" expanded="false" />
-            <element signature="e#2448#2618#0#PHP" expanded="false" />
-            <element signature="e#2636#2939#0#PHP" expanded="false" />
-            <element signature="e#2666#2929#1#PHP" expanded="false" />
-            <element signature="e#2636#2982#0#PHP" expanded="false" />
-            <element signature="e#3457#3625#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artisan">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -615,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -629,18 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicScaleFormatter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Notes/Note.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,27 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Scales/GetScale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Intervals/GetInterval.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ScaleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="86" />
-          <folding>
-            <element signature="e#40#75#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,20 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleNotes/ScaleNotes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventhValues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -749,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#26#59#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,24 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordNotes/ChordNotes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -856,48 +819,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Domains/Chords/GetChordsByScale.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
+        <state relative-caret-position="848">
           <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleNotes/ScaleNotes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordSevenths/ChordSeventhValues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicScaleFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Scales/GetScale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ScaleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Scales/ScaleTypes/ScaleTypeValues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domains/Chords/ChordTypes/ChordTypeValues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordTypesFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicScaleNamesFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ChordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="107" column="59" lean-forward="true" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+        <state relative-caret-position="434">
+          <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="33" />
           <folding>
-            <element signature="e#624#667#0#PHP" expanded="false" />
-            <element signature="e#706#750#0#PHP" expanded="false" />
-            <element signature="e#790#834#0#PHP" expanded="false" />
-            <element signature="e#875#1255#0#PHP" expanded="false" />
-            <element signature="e#1261#2115#0#PHP" expanded="false" />
-            <element signature="e#1582#1752#0#PHP" expanded="false" />
-            <element signature="e#1770#2065#0#PHP" expanded="false" />
-            <element signature="e#1800#2055#1#PHP" expanded="false" />
-            <element signature="e#1770#2108#0#PHP" expanded="false" />
-            <element signature="e#2121#2989#0#PHP" expanded="false" />
-            <element signature="e#2448#2618#0#PHP" expanded="false" />
-            <element signature="e#2636#2939#0#PHP" expanded="false" />
-            <element signature="e#2666#2929#1#PHP" expanded="false" />
-            <element signature="e#2636#2982#0#PHP" expanded="false" />
-            <element signature="e#3457#3625#0#PHP" expanded="false" />
+            <element signature="e#665#708#0#PHP" expanded="false" />
+            <element signature="e#747#791#0#PHP" expanded="false" />
+            <element signature="e#831#875#0#PHP" expanded="false" />
+            <element signature="e#1523#2377#0#PHP" expanded="false" />
+            <element signature="e#1844#2014#0#PHP" expanded="false" />
+            <element signature="e#2032#2327#0#PHP" expanded="false" />
+            <element signature="e#2062#2317#1#PHP" expanded="false" />
+            <element signature="e#2032#2370#0#PHP" expanded="false" />
+            <element signature="e#2383#3251#0#PHP" expanded="false" />
+            <element signature="e#2710#2880#0#PHP" expanded="false" />
+            <element signature="e#2898#3201#0#PHP" expanded="false" />
+            <element signature="e#2928#3191#1#PHP" expanded="false" />
+            <element signature="e#2898#3244#0#PHP" expanded="false" />
+            <element signature="e#3719#3887#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Formatters/BasicChordsFormatter.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="253">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
