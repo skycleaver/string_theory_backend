@@ -3,8 +3,11 @@
 namespace Chords;
 
 use Chords\ChordNotes\ChordNotes;
+use Chords\ChordNotes\ChordNotesInterface;
+use Chords\ChordNotes\MajorChordNotes;
 use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
+use Chords\ChordTypes\ChordTypeValues;
 use Notes\Note;
 
 class Chord
@@ -17,6 +20,10 @@ class Chord
      * @var ChordSeventh
      */
     private $chordSeventh;
+    /**
+     * @var ChordNotesInterface
+     */
+    private $chordNotes;
 
     public function __construct(
         Note $rootNote,
@@ -26,7 +33,11 @@ class Chord
     {
         $this->chordType = $chordType;
         $this->chordSeventh = $chordSeventh;
-        $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
+        if ($chordType->value() === ChordTypeValues::MAJOR) {
+            $this->chordNotes = new MajorChordNotes($rootNote, $chordSeventh);
+        } else {
+            $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
+        }
     }
 
     public function rootNote(): Note

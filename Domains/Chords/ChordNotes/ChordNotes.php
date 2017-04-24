@@ -10,7 +10,7 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class ChordNotes
+class ChordNotes implements ChordNotesInterface
 {
     /**
      * @var Note
@@ -25,9 +25,13 @@ class ChordNotes
      */
     private $thirdNote;
     /**
-     * @var Note
+     * @var Note|null
      */
     private $fourthNote;
+    /**
+     * @var GetInterval
+     */
+    private $getInterval;
 
     public function __construct(
         Note $rootNote,
