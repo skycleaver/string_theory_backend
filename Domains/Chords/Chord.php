@@ -5,6 +5,7 @@ namespace Chords;
 use Chords\ChordNotes\ChordNotes;
 use Chords\ChordNotes\ChordNotesInterface;
 use Chords\ChordNotes\MajorChordNotes;
+use Chords\ChordNotes\MinorChordNotes;
 use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
 use Chords\ChordTypes\ChordTypeValues;
@@ -35,6 +36,8 @@ class Chord
         $this->chordSeventh = $chordSeventh;
         if ($chordType->value() === ChordTypeValues::MAJOR) {
             $this->chordNotes = new MajorChordNotes($rootNote, $chordSeventh);
+        } elseif ($chordType->value() === ChordTypeValues::MINOR) {
+            $this->chordNotes = new MinorChordNotes($rootNote, $chordSeventh);
         } else {
             $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
         }
