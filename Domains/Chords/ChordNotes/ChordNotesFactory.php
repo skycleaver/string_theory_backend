@@ -2,7 +2,6 @@
 
 namespace Chords\ChordNotes;
 
-
 use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
 use Chords\ChordTypes\ChordTypeValues;
@@ -10,26 +9,27 @@ use Notes\Note;
 
 class ChordNotesFactory
 {
+
+    private static $chordNotesByChordTypeValue = [
+        ChordTypeValues::MAJOR => MajorChordNotes::class,
+        ChordTypeValues::MINOR => MinorChordNotes::class,
+        ChordTypeValues::DIMINISHED => DiminishedChordNotes::class,
+        ChordTypeValues::SUS2 => Suspended2ChordNotes::class,
+        ChordTypeValues::SUS4 => Suspended4ChordNotes::class
+    ];
+
     public static function build(
         ChordType $chordType,
         Note $rootNote,
         ChordSeventh $chordSeventh = null
-    )
+    ): ChordNotes
     {
-        switch ($chordType->value()) {
-            case ChordTypeValues::MAJOR:
-                return new MajorChordNotes($rootNote, $chordSeventh);
-            case ChordTypeValues::MINOR:
-                return new MinorChordNotes($rootNote, $chordSeventh);
-            case ChordTypeValues::DIMINISHED:
-                return new DiminishedChordNotes($rootNote, $chordSeventh);
-            case ChordTypeValues::SUS2:
-                return new Suspended2ChordNotes($rootNote, $chordSeventh);
-            case ChordTypeValues::SUS4:
-                return new Suspended4ChordNotes($rootNote, $chordSeventh);
-            default:
-                throw new \Exception('Unrecognized chord type ' . $chordType->value());
+        if (!isset(self::$chordNotesByChordTypeValue[$chordType->value()])) {
+            throw new \Exception('Unrecognized chord type ' . $chordType->value());
         }
+        $className = self::$chordNotesByChordTypeValue[$chordType->value()];
+
+        return new $className($rootNote, $chordSeventh);
     }
 
 }

@@ -4,14 +4,8 @@ namespace Chords;
 
 use Chords\ChordNotes\ChordNotesFactory;
 use Chords\ChordNotes\ChordNotesInterface;
-use Chords\ChordNotes\DiminishedChordNotes;
-use Chords\ChordNotes\MajorChordNotes;
-use Chords\ChordNotes\MinorChordNotes;
-use Chords\ChordNotes\Suspended2ChordNotes;
-use Chords\ChordNotes\Suspended4ChordNotes;
 use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
-use Chords\ChordTypes\ChordTypeValues;
 use Notes\Note;
 
 class Chord
@@ -38,7 +32,6 @@ class Chord
         $this->chordType = $chordType;
         $this->chordSeventh = $chordSeventh;
         $this->chordNotes = ChordNotesFactory::build($chordType, $rootNote, $chordSeventh);
-
     }
 
     public function rootNote(): Note
