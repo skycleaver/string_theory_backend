@@ -7,6 +7,8 @@ use Chords\ChordNotes\ChordNotesInterface;
 use Chords\ChordNotes\DiminishedChordNotes;
 use Chords\ChordNotes\MajorChordNotes;
 use Chords\ChordNotes\MinorChordNotes;
+use Chords\ChordNotes\Suspended2ChordNotes;
+use Chords\ChordNotes\Suspended4ChordNotes;
 use Chords\ChordSevenths\ChordSeventh;
 use Chords\ChordTypes\ChordType;
 use Chords\ChordTypes\ChordTypeValues;
@@ -43,6 +45,8 @@ class Chord
             $this->chordNotes = new DiminishedChordNotes($rootNote, $chordSeventh);
         } elseif ($chordType->value() === ChordTypeValues::SUS2) {
             $this->chordNotes = new Suspended2ChordNotes($rootNote, $chordSeventh);
+        } elseif ($chordType->value() === ChordTypeValues::SUS4) {
+            $this->chordNotes = new Suspended4ChordNotes($rootNote, $chordSeventh);
         } else {
             $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
         }
