@@ -7,9 +7,8 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class MinorChordNotes extends FooChordNotes implements ChordNotesInterface
+class Suspended2ChordNotes extends FooChordNotes implements ChordNotesInterface
 {
-
     /**
      * @var Note
      */
@@ -27,12 +26,13 @@ class MinorChordNotes extends FooChordNotes implements ChordNotesInterface
      */
     private $fourthNote;
 
-    public function __construct(Note $rootNote, ChordSeventh $chordSeventh = null) {
+    public function __construct(Note $rootNote, ChordSeventh $chordSeventh = null)
+    {
 
         $getInterval = new GetInterval(new NoteValues());
 
         $this->rootNote = $rootNote;
-        $this->secondNote = $getInterval->getMinorThird($rootNote);
+        $this->secondNote = $getInterval->getSecond($rootNote);
         $this->thirdNote = $getInterval->getFifth($rootNote);
         if (!is_null($chordSeventh)) {
             $this->fourthNote = $this->getSeventh($rootNote, $chordSeventh);
@@ -58,5 +58,6 @@ class MinorChordNotes extends FooChordNotes implements ChordNotesInterface
     {
         return $this->fourthNote;
     }
+
 
 }

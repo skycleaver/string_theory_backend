@@ -41,6 +41,8 @@ class Chord
             $this->chordNotes = new MinorChordNotes($rootNote, $chordSeventh);
         } elseif ($chordType->value() === ChordTypeValues::DIMINISHED) {
             $this->chordNotes = new DiminishedChordNotes($rootNote, $chordSeventh);
+        } elseif ($chordType->value() === ChordTypeValues::SUS2) {
+            $this->chordNotes = new Suspended2ChordNotes($rootNote, $chordSeventh);
         } else {
             $this->chordNotes = new ChordNotes($rootNote, $chordType, $chordSeventh);
         }
