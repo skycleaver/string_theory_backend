@@ -8,7 +8,7 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class MinorChordNotes implements ChordNotesInterface
+class MinorChordNotes extends FooChordNotes implements ChordNotesInterface
 {
 
     /**
@@ -36,23 +36,7 @@ class MinorChordNotes implements ChordNotesInterface
         $this->secondNote = $getInterval->getMinorThird($rootNote);
         $this->thirdNote = $getInterval->getFifth($rootNote);
         if (!is_null($chordSeventh)) {
-            $this->addSeventh($rootNote, $chordSeventh);
-        }
-    }
-
-    private function addSeventh(Note $rootNote, ChordSeventh $chordSeventh)
-    {
-        $getInterval = new GetInterval(new NoteValues());
-
-        switch ($chordSeventh->value()) {
-            case ChordSeventhValues::MAJ7:
-                $this->fourthNote = $getInterval->getMajorSeventh($rootNote);
-                break;
-            case ChordSeventhValues::MIN7:
-                $this->fourthNote = $getInterval->getMinorSeventh($rootNote);
-                break;
-            default:
-                throw new \Exception('Unrecognized seventh type ' . $chordSeventh->value());
+            $this->fourthNote = $this->getSeventh($rootNote, $chordSeventh);
         }
     }
 
