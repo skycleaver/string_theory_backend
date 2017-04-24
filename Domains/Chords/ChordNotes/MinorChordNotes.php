@@ -7,7 +7,7 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class MinorChordNotes extends FooChordNotes implements ChordNotesInterface
+class MinorChordNotes extends ChordNotes implements ChordNotesInterface
 {
 
     /**

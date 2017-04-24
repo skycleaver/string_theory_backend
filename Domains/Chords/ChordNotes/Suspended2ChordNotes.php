@@ -7,7 +7,7 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class Suspended2ChordNotes extends FooChordNotes implements ChordNotesInterface
+class Suspended2ChordNotes extends ChordNotes implements ChordNotesInterface
 {
     /**
      * @var Note
