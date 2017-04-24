@@ -46,6 +46,12 @@ class ChordNotes
             case ChordTypeValues::DIMINISHED:
                 $this->getDiminishedChord($rootNote);
                 break;
+            case ChordTypeValues::SUS2:
+                $this->getSuspended2Chord($rootNote);
+                break;
+            case ChordTypeValues::SUS4:
+                $this->getSuspended4Chord($rootNote);
+                break;
             default:
                 throw new \Exception('Unrecognized chord type ' . $chordType->value());
         }
@@ -73,6 +79,20 @@ class ChordNotes
         $this->rootNote = $chordRoot;
         $this->secondNote = $this->getInterval->getMinorThird($chordRoot);
         $this->thirdNote = $this->getInterval->getDiminishedFifth($chordRoot);
+    }
+
+    private function getSuspended2Chord($chordRoot)
+    {
+        $this->rootNote = $chordRoot;
+        $this->secondNote = $this->getInterval->getSecond($chordRoot);
+        $this->thirdNote = $this->getInterval->getFifth($chordRoot);
+    }
+
+    private function getSuspended4Chord($chordRoot)
+    {
+        $this->rootNote = $chordRoot;
+        $this->secondNote = $this->getInterval->getFourth($chordRoot);
+        $this->thirdNote = $this->getInterval->getFifth($chordRoot);
     }
 
     private function addSeventh(Note $rootNote, ChordSeventh $chordSeventh)

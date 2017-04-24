@@ -59,7 +59,7 @@ class ChordController extends BaseController
         $chordType = $request->get('chord_type', ChordTypeValues::MAJOR);
         $chordSeventh = $request->get('chord_seventh');
 
-        $getChord = new GetChord(new GetInterval(new NoteValues()));
+        $getChord = new GetChord();
         $chord = $getChord->getChord(
             new Note($chordRoot),
             new ChordType($chordType),
@@ -82,7 +82,7 @@ class ChordController extends BaseController
         $chordType = $request->get('chord_type', ChordTypeValues::MAJOR);
         $chordSeventh = $request->get('chord_seventh');
 
-        $getChord = new GetChord(new GetInterval(new NoteValues()));
+        $getChord = new GetChord();
         $chord = $getChord->getChord(
             new Note($chordRoot),
             new ChordType($chordType),

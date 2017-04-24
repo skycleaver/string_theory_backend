@@ -10,6 +10,8 @@ class ChordTypeValues
     const MAJOR = 'major';
     const MINOR = 'minor';
     const DIMINISHED = 'diminished';
+    const SUS2 = 'sus2';
+    const SUS4 = 'sus4';
 
     public function contains(string $chordType): bool
     {
