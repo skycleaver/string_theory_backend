@@ -18,16 +18,26 @@ Let's see an example.
 Our example application wants to display the fingering of a D minor in the guitar.
 
 It performs a GET call to the `/chord_guitar` endpoint:
+
+
 ![Example 1](http://imgur.com/g2uHACi.png)
 
 A closer look to the parameters it sends:
+
+
 ![Example 2](http://imgur.com/nXt4bXY.png)
 
 The response from the API:
+
+
 ![Example 3](http://imgur.com/oa1ysAh.png)
 
 The response formatted for clarity:
+
+
 ![Example 4](http://imgur.com/otogHqE.png)
 
 The example application formatting the response into something actually useful!
+
+
 ![Example 5](http://imgur.com/GzHk7Aa.png)
