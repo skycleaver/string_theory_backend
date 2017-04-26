@@ -3,7 +3,7 @@
 namespace Formatters;
 
 
-class BasicChordTypesFormatter
+class ChordTypesFormatter
 {
     public function get(array $chordTypes): array
     {

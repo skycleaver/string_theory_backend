@@ -20,4 +20,12 @@ class MyTestCase extends TestCase
 
         return $this;
     }
+
+    public function assertClosure(Closure $function, array $data)
+    {
+        $result = $function(json_decode($this->response->getContent(), true), $data);
+        $this->assertTrue($result);
+
+        return $this;
+    }
 }

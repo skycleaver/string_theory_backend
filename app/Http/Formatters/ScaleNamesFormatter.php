@@ -2,7 +2,7 @@
 
 namespace Formatters;
 
-class BasicScaleNamesFormatter
+class ScaleNamesFormatter
 {
     public function get(array $scaleNames): array
     {

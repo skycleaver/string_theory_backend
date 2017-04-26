@@ -28,7 +28,6 @@ class DiminishedChordNotes extends ChordNotes implements ChordNotesInterface
 
     public function __construct(Note $rootNote, ChordSeventh $chordSeventh = null)
     {
-
         $getInterval = new GetInterval(new NoteValues());
 
         $this->rootNote = $rootNote;

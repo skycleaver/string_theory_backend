@@ -9,7 +9,7 @@ use Chords\GetChord;
 use Chords\GetChordsByScale;
 use Formatters\BasicChordFormatter;
 use Formatters\BasicChordsFormatter;
-use Formatters\BasicChordTypesFormatter;
+use Formatters\ChordTypesFormatter;
 use Formatters\GuitarChordFormatter;
 use Intervals\GetInterval;
 use Laravel\Lumen\Routing\Controller as BaseController;
@@ -36,21 +36,21 @@ class ChordController extends BaseController
      */
     private $basicChordsFormatter;
     /**
-     * @var BasicChordTypesFormatter
+     * @var ChordTypesFormatter
      */
-    private $basicChordTypesFormatter;
+    private $chordTypesFormatter;
 
     public function __construct(
         BasicChordFormatter $basicChordFormatter,
         GuitarChordFormatter $guitarChordFormatter,
         BasicChordsFormatter $basicChordsFormatter,
-        BasicChordTypesFormatter $basicChordTypesFormatter
+        ChordTypesFormatter $chordTypesFormatter
     )
     {
         $this->basicChordFormatter = $basicChordFormatter;
         $this->guitarChordFormatter = $guitarChordFormatter;
         $this->basicChordsFormatter = $basicChordsFormatter;
-        $this->basicChordTypesFormatter = $basicChordTypesFormatter;
+        $this->chordTypesFormatter = $chordTypesFormatter;
     }
 
     public function getChord(Request $request)
@@ -108,7 +108,7 @@ class ChordController extends BaseController
         $scale = $getScale->getScale(new Note($scaleRoot), new ScaleType($scaleType));
 
         $getChordsByScale = new GetChordsByScale();
-        $chords = $getChordsByScale->get($scale);
+        $chords = $getChordsByScale->getMassive($scale);
 
         return response()->json(
             [
@@ -123,7 +123,7 @@ class ChordController extends BaseController
 
         return response()->json(
             [
-                "chord_types" => $this->basicChordTypesFormatter->get(
+                "chord_types" => $this->chordTypesFormatter->get(
                     $chordTypeValues->getValuesAsArray()
                 )
             ]

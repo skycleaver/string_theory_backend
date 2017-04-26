@@ -5,6 +5,7 @@ namespace Chords;
 use Chords\ChordTypes\ChordType;
 use Chords\ChordTypes\ChordTypeValues;
 use Intervals\GetInterval;
+use Notes\Note;
 use Notes\NoteValues;
 use Scales\Scale;
 use Scales\ScaleTypes\ScaleTypeValues;
@@ -21,7 +22,32 @@ class GetChordsByScale
         $this->getChord = new GetChord(new GetInterval(new NoteValues()));
     }
 
-    public function get(Scale $scale)
+    public function getMassive(Scale $scale): array {
+        $noteValues = new NoteValues();
+        $notes = $noteValues->getNotesAsArray();
+
+        $chordTypeValues = new ChordTypeValues();
+        $chordTypes = $chordTypeValues->getValuesAsArray();
+
+        $getChord = new GetChord();
+
+        $chordsMassive = [];
+        foreach ($notes as $note) {
+            foreach ($chordTypes as $chordType) {
+                $chordsMassive[] = $getChord->getChord(new Note($note), new ChordType($chordType));
+            }
+        }
+
+        $chords = [];
+        foreach ($chordsMassive as $chordMassive) {
+            if ($scale->hasChord($chordMassive)) {
+                $chords[] = $chordMassive;
+            }
+        }
+        return $chords;
+    }
+
+    public function get(Scale $scale): array
     {
         switch ($scale->scaleType()->value()) {
             case ScaleTypeValues::MAJOR:
@@ -33,7 +59,7 @@ class GetChordsByScale
         }
     }
 
-    private function getMajorScaleChords(Scale $scale)
+    private function getMajorScaleChords(Scale $scale): array
     {
         $chords = [];
         $chords[] = $this->getChord->getChord(
@@ -68,7 +94,7 @@ class GetChordsByScale
         return $chords;
     }
 
-    private function getMinorScaleChords(Scale $scale)
+    private function getMinorScaleChords(Scale $scale): array
     {
         $chords = [];
         $chords[] = $this->getChord->getChord(

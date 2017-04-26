@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Formatters\BasicScaleFormatter;
-use Formatters\BasicScaleNamesFormatter;
+use Formatters\ScaleNamesFormatter;
 use Illuminate\Http\Request;
 use Intervals\GetInterval;
 use Notes\Note;
@@ -22,7 +22,7 @@ class ScaleController
 
     public function __construct(
         BasicScaleFormatter $basicScaleFormatter,
-        BasicScaleNamesFormatter $basicScaleNamesFormatter
+        ScaleNamesFormatter $basicScaleNamesFormatter
     )
     {
         $this->basicScaleFormatter = $basicScaleFormatter;

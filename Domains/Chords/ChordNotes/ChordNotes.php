@@ -9,8 +9,11 @@ use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class ChordNotes
+abstract class ChordNotes
 {
+
+    abstract function __construct(Note $rootNote, ChordSeventh $chordSeventh = null);
+
     protected function getSeventh(Note $rootNote, ChordSeventh $chordSeventh): Note
     {
         $getInterval = new GetInterval(new NoteValues());
