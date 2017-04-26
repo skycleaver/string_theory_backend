@@ -2,11 +2,12 @@
 
 namespace Scales\ScaleNotes;
 
+
 use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
 
-class MinorScaleNotes implements ScaleNotesInterface
+class BluesScaleNotes implements ScaleNotesInterface
 {
     /**
      * @var Note
@@ -42,11 +43,11 @@ class MinorScaleNotes implements ScaleNotesInterface
         $getInterval = new GetInterval(new NoteValues());
 
         $this->rootNote = $rootNote;
-        $this->secondNote = $getInterval->getSecond($rootNote);
-        $this->thirdNote = $getInterval->getMinorThird($rootNote);
-        $this->fourthNote = $getInterval->getFourth($rootNote);
+        $this->secondNote = $getInterval->getMinorThird($rootNote);
+        $this->thirdNote = $getInterval->getFourth($rootNote);
+        $this->fourthNote = $getInterval->getDiminishedFifth($rootNote);
         $this->fifthNote = $getInterval->getFifth($rootNote);
-        $this->sixthNote = $getInterval->getMinorSixth($rootNote);
+        $this->sixthNote = $getInterval->getMajorSixth($rootNote);
         $this->seventhNote = $getInterval->getMinorSeventh($rootNote);
     }
 

@@ -8,20 +8,12 @@ class ScaleTypeValues
 {
     const MAJOR = 'major';
     const MINOR = 'minor';
+    const BLUES = 'blues';
 
     public function contains(string $chordType): bool
     {
         return in_array($chordType, $this->getValuesAsArray());
     }
-
-//    public function getChordTypeValue(string $key): string
-//    {
-//        if (!array_key_exists($key, $this->getValuesAsArray())) {
-//            throw new \Exception('Tried to get chord type with unknown key ' . $key);
-//        }
-//
-//        return $this->getValuesAsArray()[$key];
-//    }
 
     public function getValuesAsArray(): array
     {

@@ -35,6 +35,9 @@ $app->get('scale', [
 $app->get('scale_names', [
     'as' => 'scale_names', 'uses' => 'ScaleController@getScaleNames'
 ]);
+$app->get('scale_guitar', [
+    'as' => 'scale_guitar', 'uses' => 'ScaleController@getScaleGuitar'
+]);
 
 // NOTE CONTROLLER
 $app->get('notes', [

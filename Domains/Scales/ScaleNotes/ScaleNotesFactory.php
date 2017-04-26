@@ -12,6 +12,7 @@ class ScaleNotesFactory
     private static $scaleNotesByScaleTypeValue = [
         ScaleTypeValues::MAJOR => MajorScaleNotes::class,
         ScaleTypeValues::MINOR => MinorScaleNotes::class,
+        ScaleTypeValues::BLUES => BluesScaleNotes::class,
     ];
 
     public static function build(
