@@ -27,6 +27,7 @@ $app->get('chords_by_scale', [
 $app->get('chord_types', [
     'as' => 'chord_types', 'uses' => 'ChordController@getChordTypes'
 ]);
+
 // SCALE CONTROLLER
 $app->get('scale', [
     'as' => 'scale', 'uses' => 'ScaleController@getScale'
@@ -34,6 +35,7 @@ $app->get('scale', [
 $app->get('scale_names', [
     'as' => 'scale_names', 'uses' => 'ScaleController@getScaleNames'
 ]);
+
 // NOTE CONTROLLER
 $app->get('notes', [
     'as' => 'notes', 'uses' => 'NoteController@getNotes'

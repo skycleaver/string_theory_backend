@@ -4,7 +4,8 @@ namespace Scales;
 
 use Chords\Chord;
 use Notes\Note;
-use Scales\ScaleNotes\ScaleNotes;
+use Scales\ScaleNotes\ScaleNotesFactory;
+use Scales\ScaleNotes\ScaleNotesInterface;
 use Scales\ScaleTypes\ScaleType;
 
 class Scale
@@ -15,7 +16,7 @@ class Scale
      */
     private $scaleType;
     /**
-     * @var ScaleNotes
+     * @var ScaleNotesInterface
      */
     private $scaleNotes;
 
@@ -25,7 +26,7 @@ class Scale
     )
     {
         $this->scaleType = $scaleType;
-        $this->scaleNotes = new ScaleNotes($rootNote, $scaleType);
+        $this->scaleNotes = ScaleNotesFactory::build($scaleType, $rootNote);
     }
 
     public function rootNote(): Note

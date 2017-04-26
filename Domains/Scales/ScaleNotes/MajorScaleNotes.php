@@ -5,10 +5,8 @@ namespace Scales\ScaleNotes;
 use Intervals\GetInterval;
 use Notes\Note;
 use Notes\NoteValues;
-use Scales\ScaleTypes\ScaleType;
-use Scales\ScaleTypes\ScaleTypeValues;
 
-class ScaleNotes
+class MajorScaleNotes implements ScaleNotesInterface
 {
     /**
      * @var Note
@@ -39,31 +37,17 @@ class ScaleNotes
      */
     private $seventhNote;
 
-    public function __construct(Note $rootNote, ScaleType $scaleType)
+    public function __construct(Note $rootNote)
     {
         $getInterval = new GetInterval(new NoteValues());
-        switch ($scaleType->value()) {
-            case ScaleTypeValues::MAJOR:
-                $this->rootNote = $rootNote;
-                $this->secondNote = $getInterval->getSecond($rootNote);
-                $this->thirdNote = $getInterval->getMajorThird($rootNote);
-                $this->fourthNote = $getInterval->getFourth($rootNote);
-                $this->fifthNote = $getInterval->getFifth($rootNote);
-                $this->sixthNote = $getInterval->getMajorSixth($rootNote);
-                $this->seventhNote = $getInterval->getMajorSeventh($rootNote);
-                break;
-            case ScaleTypeValues::MINOR:
-                $this->rootNote = $rootNote;
-                $this->secondNote = $getInterval->getSecond($rootNote);
-                $this->thirdNote = $getInterval->getMinorThird($rootNote);
-                $this->fourthNote = $getInterval->getFourth($rootNote);
-                $this->fifthNote = $getInterval->getFifth($rootNote);
-                $this->sixthNote = $getInterval->getMinorSixth($rootNote);
-                $this->seventhNote = $getInterval->getMinorSeventh($rootNote);
-                break;
-            default:
-                throw new \Exception('Unrecognized scale type ' . $scaleType->value());
-        }
+
+        $this->rootNote = $rootNote;
+        $this->secondNote = $getInterval->getSecond($rootNote);
+        $this->thirdNote = $getInterval->getMajorThird($rootNote);
+        $this->fourthNote = $getInterval->getFourth($rootNote);
+        $this->fifthNote = $getInterval->getFifth($rootNote);
+        $this->sixthNote = $getInterval->getMajorSixth($rootNote);
+        $this->seventhNote = $getInterval->getMajorSeventh($rootNote);
     }
 
     /**
@@ -121,4 +105,5 @@ class ScaleNotes
     {
         return $this->seventhNote;
     }
+
 }
