@@ -12,9 +12,13 @@ String Theory runs on Lumen. You'll first need to satisfy its [requirements](htt
 1. Clone this repository: 
 
 `git clone https://github.com/skycleaver/string_theory_backend`
+
+
 2. Run 
 
 `composer update`
+
+
 3. In order to test it, run 
 
 `cd string_theory_backend/` 
@@ -32,25 +36,30 @@ Let's see an example.
 
 Our example application wants to display the fingering of a D minor in the guitar.
 
+
 1. It performs a GET call to the `/chord_guitar` endpoint:
 
 
 ![Example 1](http://imgur.com/g2uHACi.png)
+
 
 2. A closer look to the parameters it sends:
 
 
 ![Example 2](http://imgur.com/nXt4bXY.png)
 
+
 3. The response from the API:
 
 
 ![Example 3](http://imgur.com/oa1ysAh.png)
 
+
 4. The response formatted for clarity:
 
 
 ![Example 4](http://imgur.com/otogHqE.png)
+
 
 5. The example application formatting the response into something actually useful!
 
