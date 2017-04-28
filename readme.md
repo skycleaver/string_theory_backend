@@ -14,20 +14,25 @@ String Theory runs on Lumen. You'll first need to satisfy its [requirements](htt
 `git clone https://github.com/skycleaver/string_theory_backend`
 
 
-2. Run 
+2. Go into the cloned project, get its dependencies: 
+
+`cd string_theory_backend/` 
 
 `composer update`
 
 
-3. In order to test it, run 
-
-`cd string_theory_backend/` 
+3. In order to test it, run: 
 
 `php -S localhost:8000 -t public/`
 
+
+Now you can perform calls to String Theory [here](http://localhost:8000)
+
+
+
 ## So how does it work?
 
-String Theory itself is an API: the end user will need a client application to use it.
+String Theory itself is an API - the end user will need a client application to use it.
 This application can be whatever, from a mobile app to a web page: I've included a crude example
 [here](https://github.com/skycleaver/string_theory_frontend).
 Its role is to perform the calls to the API and format the information for the user.
