@@ -56,16 +56,26 @@ class Chord
 
     public function hasNote(Note $note): bool
     {
-        $itHasIt = $note->value() === $this->rootNote()->value()
-            || $note->value() === $this->secondNote()->value()
-            || $note->value() === $this->thirdNote()->value();
-        if (!is_null($this->fourthNote())) {
-            if ($note->value() === $this->fourthNote()->value()) {
-                $itHasIt = true;
+        foreach ($this->notes() as $ownNote) {
+            if ($ownNote->value() === $note->value()) {
+                return true;
             }
         }
+        return false;
+    }
 
-        return $itHasIt;
+    public function notes(): array
+    {
+        $notes = [
+            $this->rootNote(),
+            $this->secondNote(),
+            $this->thirdNote()
+        ];
+        if (!is_null($this->fourthNote())) {
+            $notes[] = $this->fourthNote();
+        }
+
+        return $notes;
     }
 
     public function chordType(): string
