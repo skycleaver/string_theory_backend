@@ -26,8 +26,8 @@ String Theory runs on Lumen. You'll first need to satisfy its [requirements](htt
 `php -S localhost:8000 -t public/`
 
 
-Now you can perform calls to String Theory [here](http://localhost:8000)
-
+Now you can perform calls to String Theory [here](http://localhost:8000).
+To actually see an application working with the API try [this](https://github.com/skycleaver/string_theory_frontend).
 
 
 ## So how does it work?
