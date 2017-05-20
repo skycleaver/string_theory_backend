@@ -43,3 +43,8 @@ $app->get('scale_guitar', [
 $app->get('notes', [
     'as' => 'notes', 'uses' => 'NoteController@getNotes'
 ]);
+
+// FINGERING CONTROLLER
+$app->get('fingerings', [
+    'as' => 'fingerings', 'uses' => 'FingeringsController@getFingerings'
+]);

@@ -23,7 +23,7 @@ class BasicChordsFormatter
             /** @var Chord $chord */
             $chordFormatted = [
                 'chord_root' => $chord->rootNote()->value(),
-                'chord_type' => $chord->chordType(),
+                'chord_type' => $chord->chordType()->value(),
                 'chord' => $this->basicChordFormatter->get($chord),
             ];
             $chordsFormatted[] = $chordFormatted;

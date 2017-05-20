@@ -78,9 +78,9 @@ class Chord
         return $notes;
     }
 
-    public function chordType(): string
+    public function chordType(): ChordType
     {
-        return $this->chordType->value();
+        return $this->chordType;
     }
 
     public function chordSeventh(): string

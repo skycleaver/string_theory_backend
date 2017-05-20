@@ -70,7 +70,7 @@ class ChordController extends BaseController
             [
                 'chord' => $this->basicChordFormatter->get($chord),
                 'chord_root' => $chord->rootNote()->value(),
-                'chord_type' => $chord->chordType(),
+                'chord_type' => $chord->chordType()->value(),
                 'chord_seventh' => $chord->chordSeventh()
             ]
         )->withCallback($request->input('callback'));
@@ -93,7 +93,7 @@ class ChordController extends BaseController
             [
                 'chord_guitar' => $this->guitarChordFormatter->get($chord),
                 'chord_root' => $chord->rootNote()->value(),
-                'chord_type' => $chord->chordType(),
+                'chord_type' => $chord->chordType()->value(),
                 'chord_seventh' => $chord->chordSeventh()
             ]
         )->withCallback($request->input('callback'));
